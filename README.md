@@ -1,2 +1,2 @@
-# edition
-Édition XML TEI
+# Édition XML-TEI
+**Vide. En cours de rédaction.**
