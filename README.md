@@ -6,8 +6,8 @@
 |Notion à baliser|Élément TEI|
 |-|-|
 |Titre|`title`|
-|Entrée journalière|`div` avec *type* (à définir)|
-|Compte et date|`div` avec *type* (à définir)|
+|Entrée journalière|`p` avec *type* (à définir)|
+|Compte et date|`p` avec *type* (à définir)|
 |Saut de ligne dans le document originale|`lb`|
 |Saut de page dans le document original|`pb` avec *facs*|
 
