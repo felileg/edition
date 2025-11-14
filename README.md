@@ -5,11 +5,23 @@
 ### Structure générale
 |Notion à baliser|Élément TEI|
 |-|-|
-|Entrée journalière|`div` avec un *type*|
+|Titre|`title`|
+|Entrée journalière|`div` avec *type* (à définir)|
+|Compte et date|`div` avec *type* (à définir)|
 |Saut de ligne dans le document originale|`lb`|
-|Saut de page dans le document original||
-|Date||
-|||
-|||
+|Saut de page dans le document original|`pb` avec *facs*|
+
 ### Éléments de mise en forme
+|Notion à baliser|Élément TEI|
+|-|-|
+|Scripteur|attribut *hand* sur la partie concernée (probablement toute la `div`, `hi` si rajout occasionnel)|
+|Rature|``|
+|Incertain|``|
+|Illisible||
+|Abréviation||
+
 ### Éléments dans le texte
+|Notion à baliser|Élément TEI|
+|-|-|
+|Personnes||
+|Monnaies||
