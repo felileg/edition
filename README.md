@@ -15,10 +15,10 @@
 |Notion à baliser|Élément TEI|
 |-|-|
 |Scripteur|attribut *hand* sur la partie concernée (probablement toute la `div`, `hi` si rajout occasionnel)|
-|Rature|``|
-|Incertain|``|
-|Illisible||
-|Abréviation||
+|Rature|`del` éventuellement combinable avec `unclear`|
+|Incertain|`unclear` avec hypothèse de transcription dedans|
+|Illisible|`gap`|
+|Abréviation|`abbr` avec *title* si TEI le permet (convention HTML)|
 
 ### Éléments dans le texte
 |Notion à baliser|Élément TEI|
