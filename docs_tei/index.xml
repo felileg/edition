@@ -28,10 +28,10 @@
 
 				<div type="entree" hand="scripteur1">
 					<p type="description">
-						Le <date when="1673-02-20">20 feurier 1673</date> <abbr title="Messieurs">Mess<hi rend="sup">rs</hi></abbr> les modernes <del>Mai</del><lb/>
-						Maistres Bourgeois et <abbr title="Maistres">M<hi rend="sup">res</hi></abbr> des Clefs, ont reçeu<lb/>
-						de <abbr title="Messieurs">Mess<hi rend="sup">rs</hi></abbr> les Anciens <abbr title="Maistres">M<hi rend="sup">res</hi></abbr> Bourgeois et .<lb/>
-						<abbr title="Maistres">M<hi rend="sup">res</hi></abbr> des Clefs a forme du precedent Carnet .<lb/>
+						Le <date when="1673-02-20">20 feurier 1673</date> <abbr type="title">Mess<hi rend="sup">rs</hi></abbr> les modernes <del>Mai</del><lb/>
+						Maistres Bourgeois et <abbr type="title">M<hi rend="sup">res</hi></abbr> des Clefs, ont reçeu<lb/>
+						de <abbr type="title">Mess<hi rend="sup">rs</hi></abbr> les Anciens <abbr title="Maistres">M<hi rend="sup">res</hi></abbr> Bourgeois et .<lb/>
+						<abbr type="title">M<hi rend="sup">res</hi></abbr> des Clefs a forme du precedent Carnet .<lb/>
 						en argent Content la some de six Cent quattre<lb/>
 						vingt cinq liures et huict gros
 					</p>
