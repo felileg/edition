@@ -22,7 +22,9 @@
 
 			<div type="recepte">
 				
-				<title>Recepte</title>
+				<p>
+					<title>Recepte</title>
+				</p>
 
 				<div type="entree" hand="scripteur1">
 					<p type="description">

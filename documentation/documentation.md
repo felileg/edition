@@ -11,8 +11,8 @@ L'enjeu de l'édition consistera en l'explicitation de la structure des document
 |Notion à baliser|Élément TEI|
 |-|-|
 |Titre|`title`|
-|Entrée journalière|`p` avec *type* (à définir)|
-|Compte et date|`p` avec *type* (à définir)|
+|Entrée journalière|`p` avec *type* (à définir), sauf si balise plus adaptée|
+|Compte et date|idem|
 |Saut de ligne dans le document originale|`lb`|
 |Saut de page dans le document original|`pb` avec *facs*|
 
@@ -23,7 +23,7 @@ L'enjeu de l'édition consistera en l'explicitation de la structure des document
 |Rature|`del` éventuellement combinable avec `unclear` ou `gap`|
 |Incertain|`unclear` avec hypothèse de transcription dedans|
 |Illisible|`gap`|
-|Abréviation|`abbr` avec attribut *title* si TEI le permet (convention HTML)|
+|Abréviation|`abbr`, avec attribut à trouver pour l'expansion des abréviations (*title* est invalide)|
 
 ### Éléments dans le texte
 |Notion à baliser|Élément TEI|
