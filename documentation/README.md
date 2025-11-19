@@ -4,7 +4,7 @@
 
 L'original est très difficile à déchiffrer, puisqu'il s'agit d'un document purement utilitaire dont la conservation est accidentelle. L'écriture est donc parfois peu soignée et comporte un très grand nombre d'abréviations à expliciter. Une autre difficulté est la mention omniprésente de différentes unités monétaires, qu'il s'agisse de monnaies réelles ou de ce qu'on appelle des *monnaies de compte*.
 
-L'enjeu de l'édition consistera en l'explicitation de la structure des documents, le développement des abréviations et le renvoi vers un index des monnaies, personnages et titres mentionnées, afin de donner un aperçu ludique de la vie bourgeoise neuchâteloise de cette époque.
+L'enjeu de l'édition consistera en l'explicitation de la structure des documents, le développement des abréviations et le renvoi vers un index des monnaies, personnages et titres mentionnées, afin de donner un aperçu immersif de la vie bourgeoise neuchâteloise de cette époque.
 
 ## Structure et éléments mobilisés
 ### Structure générale
