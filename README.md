@@ -1,2 +1,2 @@
 # Édition XML-TEI
-[Documentation](/documentation/README.md)
+[Documentation](/documentation/documentation.md)
