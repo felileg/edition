@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://raw.githubusercontent.com/chromium/chromium/refs/heads/main/third_party/blink/renderer/core/html/resources/html.css" type="text/css"?>
+<?xml-stylesheet href="working.css" type="text/css"?>
 <?xml-stylesheet href="style.css" type="text/css"?>
 <?xml-model href="schema/document.xsd"/?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
