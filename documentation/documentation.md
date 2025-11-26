@@ -24,7 +24,7 @@ Le véritable enjeu est donc de rendre **accessible** ce texte pour donner un ap
 |Rature|`del` éventuellement combinable avec `unclear` ou `gap`|
 |Incertain|`unclear` avec hypothèse de transcription dedans|
 |Illisible|`gap`|
-|Abréviation|`abbr`, avec attribut à trouver pour l'expansion des abréviations (*title* est invalide)|
+|Abréviation|`choice` > `abbr` et `expan`|
 
 ### Éléments dans le texte
 |Notion à baliser|Élément TEI|

@@ -1,4 +1,7 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/chromium/chromium/refs/heads/main/third_party/blink/renderer/core/html/resources/html.css" type="text/css"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<?xml-model href="schema/document.xsd"/?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -27,28 +30,19 @@
 				</p>
 
 				<div type="entree" hand="scripteur1">
-					<p type="description">
-						Le <date when="1673-02-20">20 feurier 1673</date> <abbr type="title">Mess<hi rend="sup">rs</hi></abbr> les modernes <del>Mai</del><lb/>
+					<div type="description">
+						<p>Le <date when="1673-02-20">20 feurier 1673</date> <abbr type="title">Mess<hi rend="sup">rs</hi></abbr> les modernes <del>Mai</del><lb/>
 						Maistres Bourgeois et <abbr type="title">M<hi rend="sup">res</hi></abbr> des Clefs, ont reçeu<lb/>
-						de <abbr type="title">Mess<hi rend="sup">rs</hi></abbr> les Anciens <abbr title="Maistres">M<hi rend="sup">res</hi></abbr> Bourgeois et .<lb/>
+						de <abbr type="title">Mess<hi rend="sup">rs</hi></abbr> les Anciens <abbr>M<hi rend="sup">res</hi></abbr> Bourgeois et .<lb/>
 						<abbr type="title">M<hi rend="sup">res</hi></abbr> des Clefs a forme du precedent Carnet .<lb/>
 						en argent Content la some de six Cent quattre<lb/>
-						vingt cinq liures et huict gros
-					</p>
-					<p type="compte">
-						cy argent <abbr type="currency" title="livres faibles">lb</abbr> 69 – 8 <abbr type="currency" title="gros">gr</abbr>
-					</p>
+						vingt cinq liures et huict gros</p>
+					</div>
+					<div type="compte">
+						<p>cy argent <abbr type="currency">lb</abbr> 69 – 8 <abbr type="currency">gr</abbr></p>
+					</div>
 				</div>
 
-				<div type="entree" hand="scripteur1">
-					<p type="description">
-						Il a esté vandu <del>une <gap>xxxxx</gap></del> une Corniche à <abbr title="Monsieur">Mons<sup>r</sup></abbr> le <a href="index_entites.html#maitre_bourgeois"><abbr title="Maistre">M<sup>re</sup></abbr> Bourgeois</a> <a href="index_entites.html#perrot">Perrot</a> pour son nepveu, qui a <span title="demandé">peté</span> 74 <a href="index_entites.html#livre_faible
-						"><abbr title="livres faibles">l͞b</abbr></a> au prix de cinq <a href="index_entites.html#kreutzer" class="monnaies">crutzer</a> la <a href="index_entites.html#livre">livre</a> dont il a fait payement par le moyen de quattre journées d’<span class="incertain">houes</span> à <a href="index_entites.html#elie_doudiet">Elie Doudiet</a> et un escu blanc pour des attestations pour la <a href="">mon<unclear><reg>[tagne]</reg><gap/><lb/></unclear> de la Joux</a>, et quatorze batz et demi de livre d’argent content mis dans le garderobe pour faire l’entier payement de ladite corniche
-					</p>
-					<p type="compte">
-						cy  <abbr title="livre"></abbr> 3 – 10 <abbr title="gros">gr</abbr> <abbr title="et demi">de</abbr>
-					</p>
-				</div>
 			</div>
 		</body>
 	</text>
