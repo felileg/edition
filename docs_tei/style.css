@@ -18,6 +18,7 @@ p {
 hi[rend=sup] {
   font-size: .66em;
   vertical-align: top;
+  font-weight: 600;
 }
 
 del {
