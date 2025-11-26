@@ -1,2 +1,0 @@
-# edition
-Édition XML TEI
