@@ -2,7 +2,7 @@ teiHeader {
   display: none;
 }
 
-text, body, div, p  {
+text, body, div, p, lb  {
   display: block;
 }
 
