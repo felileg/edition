@@ -85,24 +85,3 @@ sup {
 a {
     text-decoration: none;
 }
-
-.incertain {
-    font-weight: 100;
-}
-
-.incertain::after {
-    content: "?";
-    font-variant-position: super;
-}
-
-.caviardage {
-    text-decoration: line-through 3px;
-}
-
-.marge {
-    margin-left: -1em;
-}
-
-.variantes {
-    font-style: italic;
-}
