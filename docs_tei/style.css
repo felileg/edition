@@ -12,3 +12,8 @@ body {
   margin: auto;
 }
 
+div[type=recepte] {
+  max-width: 500px;
+  margin: auto;
+}
+
