@@ -6,12 +6,6 @@ text, body, div, p  {
   display: block;
 }
 
-body {
-  max-width: 800px;
-  border: 1px solid;
-  margin: auto;
-}
-
 div[type=recepte] {
   max-width: 500px;
   margin: auto;
@@ -19,6 +13,14 @@ div[type=recepte] {
 
 p {
   margin: 1rem;
+}
+
+hi[rend=sup] {
+  font-size: .66em;
+}
+
+del {
+  text-decoration: line-through;
 }
 
 /*****************************************************/
