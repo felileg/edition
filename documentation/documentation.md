@@ -4,8 +4,13 @@ Le *glossaire de Saint-Brais* est l'un des travaux majeurs du dialectologue [Rob
 
 Malheureusement, Robert Jolidon décède subitement en 1953. Son glossaire, destiné à être imprimé en un volume, est resté sous la forme d'un fichier manuscrit.
 
-![La boite contenant le fichier](images/fichier.jpg "La boite contenant le fichier")
-![Un des paquets de fiches](images/paquet.jpg "Un des paquets de fiches")
+
+|![La boite contenant le fichier](images/fichier.jpg)|![Un des paquets de fiches](images/paquet.jpg)|
+|---|---|
+|Le carton contenant l'entièreté du fichier|Un des paquets de fiches|
+
+
+
 
 
 ## Les enjeux d'un balisage structuré
