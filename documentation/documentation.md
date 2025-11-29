@@ -7,9 +7,12 @@ Malheureusement, Robert Jolidon décède subitement en 1953. Son glossaire, dest
 |---|---|---|
 |Le carton contenant l'entièreté du fichier|Un des paquets de fiches|La fiche décrivant l'adverbe "autour" (*â di toué*)|
 
-Voici la structure typique d'une fiche:
-![Strucutre typique d'une fiche](images/structure.png)
-
-
 ## Les enjeux d'un balisage structuré
+
+Voici la structure typique d'une fiche:
+![Structure typique d'une fiche](images/structure.png)
+
+Malheureusement, toutes les fiches ne sont pas aussi stéréotypées. Par exemple:
+
+
 ## Les éléments à baliser
