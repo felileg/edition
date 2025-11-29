@@ -2,15 +2,13 @@
 ## Le document
 Le *glossaire de Saint-Brais* est l'un des travaux majeurs du dialectologue [Robert Jolidon](https://aspaju.unine.ch/jolidon/). Entre 1946 et 1950, celui-ci recueilli le lexique de son village natal sur plusieurs milliers de fiches papier. Il s'agit du seul ouvrage de ce genre concernant le patois jurassien, unique représentant de la langue d'oïl en Suisse.
 
-Malheureusement, Robert Jolidon décède subitement en 1953. Son glossaire, destiné à être imprimé en un volume, est resté sous la forme d'un fichier manuscrit.
-
-
+Malheureusement, Robert Jolidon décède subitement en 1953. Son glossaire, destiné à être imprimé en un volume, est resté sous la forme d'un fichier manuscrit:
 |![La boite contenant le fichier](images/fichier2.jpg)|![Un des paquets de fiches](images/paquet2.jpg)|![La fiche "autour"](images/fiche_autour.png)
 |---|---|---|
 |Le carton contenant l'entièreté du fichier|Un des paquets de fiches|La fiche décrivant l'adverbe "autour" (*â di toué*)|
 
-
-
+Voici la structure typique d'une fiche:
+![Strucutre typique d'une fiche](images/structure.png)
 
 
 ## Les enjeux d'un balisage structuré
