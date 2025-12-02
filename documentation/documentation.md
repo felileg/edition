@@ -17,4 +17,20 @@ Malheureusement, toutes les fiches ne sont pas aussi stéréotypées. Par exempl
 
 ## Éléments à baliser et enjeux d'un balisage structuré
 
+En l'état actuel, une telle source est absolument inaccessible, pour les raisons suivantes
 
+1. **Document manuscrit et inachevé**
+
+De nombreuses fiches demandent des **ajouts** ou des **suppressions**. Un bon balisage permet de conserver la version originale et la version éditée.
+
+2. **Structure complexe pas toujours régulière**
+
+Les éléments doivent être reclassés et réordonnés.
+
+3. **Pas d'index ou de renvois**
+
+Les différents éléments doivent être balisés pour pouvoir faire l'objet de recherches ou d'autres opérations plus complexes.
+
+4. **Graphie phonétique réservée aux initiés**
+
+Le patois (en graphie phonétique) doit être séparément balisé du français, pour garantir à terme la possibilité d'une conversion automatiqueme de la graphie.
