@@ -7,12 +7,14 @@ Malheureusement, Robert Jolidon décède subitement en 1953. Son glossaire, dest
 |---|---|---|
 |Le carton contenant l'entièreté du fichier|Un des paquets de fiches|Une des fiches|
 
-## Les enjeux d'un balisage structuré
+## Les fiches
 
 Voici la structure typique d'une fiche:
 ![Structure typique d'une fiche](images/structure.png)
 
 Malheureusement, toutes les fiches ne sont pas aussi stéréotypées. Par exemple:
+![Fiche "autour"](images/autour.png)
+
+## Éléments à baliser et enjeux d'un balisage structuré
 
 
-## Les éléments à baliser
