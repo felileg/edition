@@ -15,7 +15,7 @@ Voici la structure typique d'une fiche:
 Malheureusement, toutes les fiches ne sont pas aussi stéréotypées. Par exemple:
 ![Fiche "autour"](images/autour.png)
 
-## Éléments à baliser et enjeux d'un balisage structuré
+## Enjeux d'un balisage structuré
 
 En l'état actuel, une telle source est absolument inaccessible, pour les raisons suivantes
 
@@ -33,4 +33,23 @@ Les différents éléments doivent être balisés pour pouvoir faire l'objet de 
 
 4. **Graphie phonétique réservée aux initiés**
 
-Le patois (en graphie phonétique) doit être séparément balisé du français, pour garantir à terme la possibilité d'une conversion automatiqueme de la graphie.
+Le patois (en graphie phonétique) doit être séparément balisé du français, pour garantir à terme la possibilité d'une conversion automatique de la graphie.
+
+## Éléments à baliser
+
+**Modules utilisés**: *TEI Lite* + *transcr* (module de transcription des sources primaires)
+
+Structure :
+- Ensemble du glossaire (text)
+    - Paquet alphabétique de fiches (group)
+        - Fiche (.... avec *facs*)
+
+
+|Élément|Balise TEI|Attribut|Remarque|
+|---|---|---|---|
+|Ajouts|`supplied`|`reason="editorial"`|Par exemple traductions
+|Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
+|Corrections|`corr`|`cert` (certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Cas peu courant à priori
+
+
+
