@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.css" type="text/css"?>
-<?xml-model href="schemas_etc/tei_lite/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="xsd/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -22,7 +22,9 @@
 	</teiHeader>
 	<text>
 		<group type="alpha" xml:id="a">
-			
+			<entry>
+				
+			</entry>
 		</group>
 		<group type="alpha" xml:id="ã">
 			
