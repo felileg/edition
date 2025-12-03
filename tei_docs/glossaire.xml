@@ -27,11 +27,17 @@
 			<div></div>
 			<entry>
 				<form xml:lang="pat">lẹ a</form>
-				<gramGrp>
-					<pos>n</pos>
-				</gramGrp>
 				<sense n="1">
 					«Les hauts»: s'emploie en opposition à <hi xml:lang="pat">lẹ bẹ</hi>: «les bas», et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
+				</sense>
+			</entry>
+			<entry>
+				<form xml:lang="pat">a (l')</form><form xml:lang="pat">lẹz a</form>
+				<gramGrp>
+					<pos>s.n.</pos>
+				</gramGrp>
+				<sense n="1">
+					Ail: on leur accorde une grande efficacité; un sujet me disait: <hi xml:lang="pat">s’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽtõ.</hi> <supplied>(si on savait comment les ails sont bons, on en planterait un canton.</supplied>
 				</sense>
 			</entry>
 		</group>
