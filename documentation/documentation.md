@@ -42,8 +42,8 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 Structure :
 - Ensemble du glossaire (text)
     - Paquet alphabétique de fiches (group)
-        - Fiche (.... avec *facs*)
-            - Titre de la fiche/lemme concerné (?)
+        - Fiche (`entry` avec *facs*)
+            - Titre de la fiche/lemme concerné (`form`)
 
 
 |Élément|Balise TEI|Attribut|Remarque|

@@ -12,7 +12,9 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				License?
+				<p>
+					Je dois mettre quoi ici?
+				</p>
 			</publicationStmt>
 			<sourceDesc>
 				<p>Robert Jolidon. Glossaire de Saint-Brais (1946-1952). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
@@ -23,6 +25,7 @@
 	<text>
 		<group type="alpha" xml:id="a">
 			<entry>
+				<form></form>
 				
 			</entry>
 		</group>
