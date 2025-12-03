@@ -24,9 +24,15 @@
 	</teiHeader>
 	<text>
 		<group type="alpha" xml:id="a">
+			<div></div>
 			<entry>
-				<form></form>
-				
+				<form xml:lang="pat">lẹ a</form>
+				<gramGrp>
+					<pos>n</pos>
+				</gramGrp>
+				<sense n="1">
+					«Les hauts»: s'emploie en opposition à <hi xml:lang="pat">lẹ bẹ</hi>: «les bas», et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
+				</sense>
 			</entry>
 		</group>
 		<group type="alpha" xml:id="ã">
