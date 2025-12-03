@@ -43,13 +43,29 @@ Structure :
 - Ensemble du glossaire (text)
     - Paquet alphabétique de fiches (group)
         - Fiche (.... avec *facs*)
+            - Titre de la fiche/lemme concerné (?)
 
 
 |Élément|Balise TEI|Attribut|Remarque|
 |---|---|---|---|
 |Ajouts|`supplied`|`reason="editorial"`|Par exemple traductions
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
-|Corrections|`corr`|`cert` (certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Cas peu courant à priori
+|Corrections|`corr`|`cert` (niveau de certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Réservé aux lapsus évidents
+
+
+À investiguer:
+>label
+
+>item
+
+>HeadLabel
+
+>HeadItem
+
+>term
+
+>gloss
+
 
 
 

@@ -1,0 +1,6 @@
+TEI, text, group, div, ul, ol, li, p {
+    display: block;
+}
+teiHeader {
+    display: none;
+}

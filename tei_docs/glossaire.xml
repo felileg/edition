@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<?xml-model href="schemas_etc/tei_lite/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Glossaire de Saint-Brais par Robert Jolidon</title>
+				<respStmt>
+					<resp>Mise en forme par</resp>
+					<name>Félix Légeret</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				License?
+			</publicationStmt>
+			<sourceDesc>
+				<p>Robert Jolidon. Glossaire de Saint-Brais (1946-1952). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
+			</sourceDesc>
+		</fileDesc>
+		
+	</teiHeader>
+	<text>
+		<group type="alpha" xml:id="a">
+			
+		</group>
+		<group type="alpha" xml:id="ã">
+			
+		</group>
+		<group type="alpha" xml:id="ãm">
+			
+		</group>
+	</text>
+</TEI>
