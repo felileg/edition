@@ -37,9 +37,12 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 
 ## Éléments à baliser
 
-**Modules utilisés**: *TEI Lite* + *transcr* (module de transcription des sources primaires)
+**Modules utilisés** :
+- *TEI Lite* 
+- *transcr* (module de transcription des sources primaires)
+- *dictionaries*
 
-Structure :
+**Structure** :
 - Ensemble du glossaire (text)
     - Paquet alphabétique de fiches (group)
         - Fiche (`entry` avec *facs*)
