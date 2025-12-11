@@ -24,9 +24,9 @@
 	</teiHeader>
 	<text>
 		<body>
-			<group type="alpha" xml:id="a">
+			<div type="alpha" xml:id="a">
 				<entry>
-					<form xml:lang="pat">lẹ a</form>z
+					<form xml:lang="pat">lẹ a</form>
 					<sense n="1">
 						«Les hauts»: s'emploie en opposition à <hi xml:lang="pat">lẹ bẹ</hi>: «les bas», et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
 					</sense>
@@ -40,13 +40,13 @@
 						Ail: on leur accorde une grande efficacité; un sujet me disait: <hi xml:lang="pat">s’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽtõ.</hi> <supplied>(si on savait comment les ails sont bons, on en planterait un canton.</supplied>
 					</sense>
 				</entry>
-			</group>
-			<group type="alpha" xml:id="ã">
+			</div>
+			<div type="alpha" xml:id="ã">
 			
-			</group>
-			<group type="alpha" xml:id="ãm">
+			</div>
+			<div type="alpha" xml:id="ãm">
 			
-			</group>
+			</div>
 		</body>
 	</text>
 </TEI>
