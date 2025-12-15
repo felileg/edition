@@ -48,7 +48,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
 	- `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
 		- `<form xml:lang="patois">` : forme du mot en patois = **titre**.
-			- Quid du déterminant qui est souvent inclus? Peut-être avec `<colloc>` dans `<usg>` cf. [documentation]().
+			- Quid du déterminant qui est souvent inclus? Peut-être avec `<colloc>` dans `<usg>` cf. [documentation](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html#DITPUS).
 		- `<gramGrp>` : **informations grammaticales**.
 			- `<pos>` : catégorie grammaticale.
 			- `<gen>` : genre.
