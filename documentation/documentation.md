@@ -54,7 +54,10 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 			- `<gen>` : genre.
 			- `<number>` : nombre.
 			- etc.
-		- `<usg>` : informations sur l'usage = **remarques et précisions techniques**.
+		- `<usg>` : informations sur l'usage = **remarques et précisions techniques** (j'espère que je peux l'utiliser comme ça, sinon on fera avec `lbl` i guess?)
+		- `<cit>` : citations ALF
+			- `<quote>` : forme ALF. Pertinent? On pourrait n'inclure que le renvoi vers Cartodialect.
+			- Format de la source?
 		- `<etym>` : étymologie.
 		- `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
 			- `<def>` : définition ou équivalent français.

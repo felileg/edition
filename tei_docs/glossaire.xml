@@ -41,13 +41,14 @@
 					</sense>
 					<sense> <!-- exemple sorti de la documentation TEI, c'est temporaire -->
 						<def>
-							<cit type="example">
-								<q>elle était horrifiée par la dépense</q>
-								<cit type="translation" xml:lang="en">
-									<q>she was horrified at the expense.</q>
-								</cit>
-							</cit>
+							Une traduction, ou équivalent français.
 						</def>
+						<cit type="example">
+							<q>elle était horrifiée par la dépense</q>
+							<cit type="translation" xml:lang="en">
+								<q>she was horrified at the expense.</q>
+							</cit>
+						</cit>
 					</sense>
 				</entry>
 			</div>
