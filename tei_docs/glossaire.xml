@@ -39,6 +39,16 @@
 					<sense n="1">
 						Ail: on leur accorde une grande efficacité; un sujet me disait: <hi xml:lang="pat">s’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽtõ.</hi> <supplied>(si on savait comment les ails sont bons, on en planterait un canton.</supplied>
 					</sense>
+					<sense> <!-- exemple sorti de la documentation TEI, c'est temporaire -->
+						<def>
+							<cit type="example">
+								<q>elle était horrifiée par la dépense</q>
+								<cit type="translation" xml:lang="en">
+									<q>she was horrified at the expense.</q>
+								</cit>
+							</cit>
+						</def>
+					</sense>
 				</entry>
 			</div>
 			<div type="alpha" xml:id="ã">

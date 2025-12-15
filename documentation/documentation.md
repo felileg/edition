@@ -42,28 +42,33 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 - *Dictionaries*
 - Quelques éléments de *Transcr* (module de transcription des sources primaires)
 
-### Structure
+### Éléments utilisés
+
+**Structure** :
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
-    - `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
-        - `<form>` : forme du mot en patois = **titre**.
-            - Quid du déterminant qui est souvent inclus?
-        - `<gramGrp>` : **informations grammaticales**.
-            - `<pos>` : catégorie grammaticale.
-            - `<gen>` : genre.
-            - `<number>` : nombre.
-            - etc.
-        - `<usg>` : informations sur l'usage = **remarques et précisions techniques**.
-        - `<etym>` : étymologie.
-        - `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
-            - `<def>` : définition ou équivalent français.
-            - Quid des exemples?
-        - `<re>` : sous-entrée (par exemple dérivé, composé)
+	- `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
+		- `<form xml:lang="patois">` : forme du mot en patois = **titre**.
+			- Quid du déterminant qui est souvent inclus? Peut-être avec `<colloc>` dans `<usg>` cf. [documentation]().
+		- `<gramGrp>` : **informations grammaticales**.
+			- `<pos>` : catégorie grammaticale.
+			- `<gen>` : genre.
+			- `<number>` : nombre.
+			- etc.
+		- `<usg>` : informations sur l'usage = **remarques et précisions techniques**.
+		- `<etym>` : étymologie.
+		- `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
+			- `<def>` : définition ou équivalent français.
+			- Quid des exemples? La documentation demande techniquement d'utiliser `<cit>` mais ça n'a ici que peu de sens puisqu'il ne s'agit pas de citation d'un ouvrage externe. 
+				- `<q xml:lang="patois">` : citation "libre" (non-sourcée)?
+		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
-Utilisables à plusieurs niveaux
+**Utilisables à plusieurs niveaux** :
 - `<xr>` : renvoi vers une autre entrée.
-- `gram` : indication grammaticale (générique).
 - `<note>` : une annotation diverse ne rentrant dans aucune des catégorie précédente.
+- `<oRef/>` : abréviation dans le corps de texte du mot dont il est question (typographiquement rendu par **~**)
 
+À voir
+- `<gram>` : indication grammaticale (générique).
 - `<lbl>` : pertinent?
 
 
