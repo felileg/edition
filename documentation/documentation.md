@@ -33,52 +33,40 @@ Les différents éléments doivent être balisés pour pouvoir faire l'objet de 
 
 4. **Graphie phonétique réservée aux initiés**
 
-Le patois (en graphie phonétique) doit être séparément balisé du français, pour garantir à terme la possibilité d'une conversion automatique de la graphie.
+Le patois (en graphie phonétique) doit être séparément balisé du français, pour réserver à terme la possibilité d'une conversion automatique de la graphie.
 
 ## Éléments à baliser
 
-**Modules utilisés** :
+### Modules TEI utilisés
 - *TEI Lite* 
-- *Transcr* (module de transcription des sources primaires)
 - *Dictionaries*
+- Quelques éléments de *Transcr* (module de transcription des sources primaires)
 
-**Structure** :
+### Structure
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
-    - `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = mot traité[^1].
+    - `<entry xml:id="lemme" facs="facsimile.jpg">` : *entrée* = fiche = mot traité[^1].
         - `<form>` : forme du mot en patois = titre.
-        - `<gramGrp>` : informations grammaticales
-            - `<pos>` : catégorie grammaticale
-            - `<gen>` : genre
-            - `<number>` : nombre
+            - Quid du déterminant qui est souvent inclus?
+        - `<gramGrp>` : informations grammaticales.
+            - `<pos>` : catégorie grammaticale.
+            - `<gen>` : genre.
+            - `<number>` : nombre.
             - etc.
+        - `<usg>` : *informations sur l'usage* = remarques et précisions techniques.
+        - `<etym>` : étymologie.
         - `<sense>` : tout ce qui touche à la traduction, définition et exemples du mot.
-            - `<def>` : définition
-            - .
-        - `<re>` : entrée connexe (par exemple dérivé, composé)
+            - `<def>` : définition. 
+            - Quid des exemples?
+        - `<re>` : sous-entrée (par exemple dérivé, composé)
+
 
 
 [^1]: L'ID des entrées est indiqué selon le titre des articles parus du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite la création d'identifiants uniques et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié (et ne devrait l'être que vers 2060), je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour. À court terme, ce n'est pas un problème puisque je me limite, pour cet exercice d'édition, aux premiers paquets de la lettre A.
+
+### Éléments éditoriaux
 
 |Élément|Balise TEI|Attribut|Remarque|
 |---|---|---|---|
 |Ajouts|`supplied`|`reason="editorial"`|Par exemple traductions
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
 |Corrections|`corr`|`cert` (niveau de certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Réservé aux lapsus évidents
-
-
-À investiguer:
->label
-
->item
-
->HeadLabel
-
->HeadItem
-
->term
-
->gloss
-
-
-
-
