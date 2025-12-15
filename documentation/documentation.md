@@ -42,9 +42,9 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 - *Dictionaries*
 - Quelques éléments de *Transcr* (module de transcription des sources primaires)
 
-### Éléments utilisés
+### Éléments de structure
 
-**Structure** :
+**Hiérarchie** :
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
 	- `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
 		- `<form xml:lang="patois">` : forme du mot en patois = **titre**.
