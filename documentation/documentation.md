@@ -55,13 +55,19 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
         - `<usg>` : informations sur l'usage = **remarques et précisions techniques**.
         - `<etym>` : étymologie.
         - `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
-            - `<def>` : définition. 
+            - `<def>` : définition ou équivalent français.
             - Quid des exemples?
         - `<re>` : sous-entrée (par exemple dérivé, composé)
 
+Utilisables à plusieurs niveaux
+- `<xr>` : renvoi vers une autre entrée.
+- `gram` : indication grammaticale (générique).
+- `<note>` : une annotation diverse ne rentrant dans aucune des catégorie précédente.
+
+- `<lbl>` : pertinent?
 
 
-[^1]: L'ID des entrées correspond au lemme donné par le titre des articles parus du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite l'identification unique des mots et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié (et ne devrait l'être que vers 2060), je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour. À court terme, ce n'est pas un problème puisque je me limite, pour cet exercice d'édition, aux premiers paquets de la lettre A.
+[^1]: L'ID des entrées correspond au lemme, en français quand il existe, sous une forme patoise normalisée le reste du temps. J'essayerai au maximum de reprendre les titres du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite l'identification unique des mots, et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié, je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour.
 
 ### Éléments éditoriaux
 
