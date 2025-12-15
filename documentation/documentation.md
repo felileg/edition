@@ -43,31 +43,21 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 - *Dictionaries*
 
 **Structure** :
-- `<div1 type="alpha">` : paquet alphabétique de fiches
-    - `<entry xml:id="lemme">` : entrée = fiche = mot traité[^1].
+- `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
+    - `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = mot traité[^1].
         - `<form>` : forme du mot en patois = titre.
+        - `<gramGrp>` : informations grammaticales
+            - `<pos>` : catégorie grammaticale
+            - `<gen>` : genre
+            - `<number>` : nombre
+            - etc.
         - `<sense>` : tout ce qui touche à la traduction, définition et exemples du mot.
+            - `<def>` : définition
+            - .
         - `<re>` : entrée connexe (par exemple dérivé, composé)
 
 
-[^1]: L'ID des entrées est indiqué selon le titre des articles parus du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Comme celui-ci n'est pas encore entièrement publié (et ne devrait l'être que vers 2060), je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour. À court terme, ce n'est pas un problème puisque je me limite, pour cet exercice d'édition, aux premiers paquets de la lettre A.
-
-
-
-
-
----
---
----
---
-----
-## En cours de rédaction
-- Ensemble du glossaire (text)
-    - Paquet alphabétique de fiches (group)
-        - Fiche (`entry` avec *facs*)
-            - Titre de la fiche/lemme concerné (`form`)
-
-Les lemmes sont balisés selon les références du glossaire. Celui-ci n'étant pas publié jusqu'au bout, je compterais à l'avenir sur la collaboration de ses collaboratrices. À court terme, pour cette exercice d'édition, le but n'est pas d'aller au delà de la lettre A.
+[^1]: L'ID des entrées est indiqué selon le titre des articles parus du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite la création d'identifiants uniques et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié (et ne devrait l'être que vers 2060), je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour. À court terme, ce n'est pas un problème puisque je me limite, pour cet exercice d'édition, aux premiers paquets de la lettre A.
 
 |Élément|Balise TEI|Attribut|Remarque|
 |---|---|---|---|
