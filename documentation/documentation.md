@@ -44,24 +44,24 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 
 ### Structure
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
-    - `<entry xml:id="lemme" facs="facsimile.jpg">` : *entrée* = fiche = mot traité[^1].
-        - `<form>` : forme du mot en patois = titre.
+    - `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
+        - `<form>` : forme du mot en patois = **titre**.
             - Quid du déterminant qui est souvent inclus?
-        - `<gramGrp>` : informations grammaticales.
+        - `<gramGrp>` : **informations grammaticales**.
             - `<pos>` : catégorie grammaticale.
             - `<gen>` : genre.
             - `<number>` : nombre.
             - etc.
-        - `<usg>` : *informations sur l'usage* = remarques et précisions techniques.
+        - `<usg>` : informations sur l'usage = **remarques et précisions techniques**.
         - `<etym>` : étymologie.
-        - `<sense>` : tout ce qui touche à la traduction, définition et exemples du mot.
+        - `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
             - `<def>` : définition. 
             - Quid des exemples?
         - `<re>` : sous-entrée (par exemple dérivé, composé)
 
 
 
-[^1]: L'ID des entrées est indiqué selon le titre des articles parus du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite la création d'identifiants uniques et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié (et ne devrait l'être que vers 2060), je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour. À court terme, ce n'est pas un problème puisque je me limite, pour cet exercice d'édition, aux premiers paquets de la lettre A.
+[^1]: L'ID des entrées correspond au lemme donné par le titre des articles parus du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite l'identification unique des mots et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié (et ne devrait l'être que vers 2060), je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour. À court terme, ce n'est pas un problème puisque je me limite, pour cet exercice d'édition, aux premiers paquets de la lettre A.
 
 ### Éléments éditoriaux
 
