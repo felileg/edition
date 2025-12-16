@@ -81,13 +81,13 @@
 							<q xml:lang="patois">Lę āt ętšăt</q> : <supplied cert="high">"la haute abeille"</supplied>, <supplied cert="low">la reine</supplied>
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Fęr dẹ ā dzęvẹ</q> : <supplied cert="medium">"faire des hautes javelles"</supplied>, <supplied cert="unknown">?</supplied>
+							<q xml:lang="patois">Fęr dẹ ā džęvẹ</q> : <supplied cert="medium">"faire des hautes javelles"</supplied>, <supplied cert="unknown">?</supplied>
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Lę at grẽdž</q> :  <supplied cert="high">"la haute grange"</supplied>,
+							<q xml:lang="patois">Lę at grẽdž</q> : <supplied cert="high">"la haute grange"</supplied>,
 							<supplied cert="high">
 								<cit>
-									<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article grange).</bibl>
+									<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article "grange").</bibl>
 								</cit>
 							</supplied>
 						</note>
@@ -96,35 +96,7 @@
 						</note>
 					</sense>
 				</entry>
-				
-				<entry>
-					<form type="lemma">
-						<gramGrp>
-							<pos value="noun"/>
-							<gen value="n"/>
-						</gramGrp>
-						<form type="determiner">
-							<orth>Das</orth>
-						</form>
-						<form type="headword">
-							<orth>Evangelium</orth>
-						</form>
-					</form>
-					<form type="inflected">
-						<gramGrp>
-							<case value="genitive"/>
-							<number value="singular"/>
-						</gramGrp>
-						<form type="determiner">
-							<orth>des</orth>
-						</form>
-						<form type="headword">
-							<orth>
-								<oRef>Evangelii</oRef>
-							</orth>
-						</form>
-					</form>
-				</entry>	
+
 			</div1>
 		</body>
 	</text>
