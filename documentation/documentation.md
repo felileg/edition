@@ -50,6 +50,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 		- `<form xml:lang="patois">` : forme du mot en patois = **titre**.
 			- Quid du déterminant qui est souvent inclus? Peut-être avec `<colloc>` dans `<usg>` cf. [documentation](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html#DITPUS).
 		- `<gramGrp>` : **informations grammaticales**.
+			- `<colloc>` : mot utilisé en association récurrente. **Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison**
 			- `<pos>` : catégorie grammaticale.
 			- `<gen>` : genre.
 			- `<number>` : nombre.
@@ -84,3 +85,5 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 |Ajouts|`supplied`|`reason="editorial"`|Par exemple traductions
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
 |Corrections|`corr`|`cert` (niveau de certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Réservé aux lapsus évidents
+
+**Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne seront utilisés que lorsque que du **contenu** est réellement créé/supprimé, par exemple l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la légère reformulation, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.

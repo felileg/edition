@@ -24,40 +24,24 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div type="alpha" xml:id="a">
-				<entry>
-					<form xml:lang="pat">lẹ a</form>
-					<sense n="1">
-						«Les hauts»: s'emploie en opposition à <hi xml:lang="pat">lẹ bẹ</hi>: «les bas», et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
-					</sense>
-				</entry>
-				<entry>
-					<form xml:lang="pat">a (l')</form><form xml:lang="pat">lẹz a</form>
+			<div1 type="alpha" xml:id="a" facs="Jolidon_A1.png-001.png">
+				<entry xml:id="ail" facs="Jolidon_A1.png-003.png">
+					<form xml:lang="patois">ā</form>
 					<gramGrp>
-						<pos>s.n.</pos>
+						<usg type="colloc" xml:lang="patois">l’<supplied>ā</supplied></usg>
+						<pos>s.</pos>
+						<gen>f.</gen>
 					</gramGrp>
-					<sense n="1">
-						Ail: on leur accorde une grande efficacité; un sujet me disait: <hi xml:lang="pat">s’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽtõ.</hi> <supplied>(si on savait comment les ails sont bons, on en planterait un canton.</supplied>
-					</sense>
-					<sense> <!-- exemple sorti de la documentation TEI, c'est temporaire -->
-						<def>
-							Une traduction, ou équivalent français.
-						</def>
-						<cit type="example">
-							<q>elle était horrifiée par la dépense</q>
-							<cit type="translation" xml:lang="en">
-								<q>she was horrified at the expense.</q>
-							</cit>
-						</cit>
-					</sense>
+					<gramGrp>
+						<usg type="colloc" xml:lang="patois">lẹz_ā</usg>
+						<number><supplied>pl.</supplied></number>
+					</gramGrp>
+					<cit>
+						<bibl>72-ALF, 17</bibl>
+						<gap reason="editorial"><desc>forme ALF</desc></gap>
+					</cit>
 				</entry>
-			</div>
-			<div type="alpha" xml:id="ã">
-				
-			</div>
-			<div type="alpha" xml:id="ãm">
-				
-			</div>
+			</div1>
 		</body>
 	</text>
 </TEI>
