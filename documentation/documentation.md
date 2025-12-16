@@ -46,14 +46,15 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 
 **Hiérarchie** :
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
-	- `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
-		- `<form xml:lang="patois">` : forme du mot en patois = **titre**.
-		- `<gramGrp>` : **informations grammaticales**.
-			- `<colloc>` : mot utilisé en association récurrente. *Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison*
-			- `<pos>` : catégorie grammaticale.
-			- `<gen>` : genre.
-			- `<number>` : nombre.
-			- etc.
+	- `<entry xml:id="lemme" facs="facsimile.png">`[^1] : entrée = **mot traité**.
+		- `<form>` : conteneur des différentes formes et infos grammaticales (TEI est trop strict et ne me laisse pas utiliser de simple `div`)
+			- `<form type="lemma" xml:lang="patois">` : forme du mot en patois = **titre**.
+			- `<gramGrp>` : **informations grammaticales**.
+				- `<usg type="colloc" xml:lang="patois">` : mot en association récurrente avec le lemme. *Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison*
+				- `<pos>` : catégorie grammaticale.
+				- `<gen>` : genre.
+				- `<number>` : nombre.
+				- etc.
 		- `<usg>` : informations sur l'usage = **remarques et précisions techniques**
 		- `<cit>` : citations ALF (evtl autres ouvrages)
 			- `<bibl>` : ALF + numéro de la carte.
@@ -61,8 +62,8 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 		- `<etym>` : étymologie.
 		- `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
 			- `<def>` : définition ou équivalent français.
-			- `<cit type="example">` : façon de noter un exemple selon la documentation (bien qu'il ne s'agisse pas d'une réelle citation).
-				- `<q xml:lang="patois">` : citation "libre" (non-sourcée) = exemple en patois
+			- `<note type="example">` : de nouveau, contenant arbitraire à cause de la syntaxe trop stricte de TEI.
+				- `<q xml:lang="patois">` : citation "libre" (non-sourcée) = **exemple en patois**
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
 **Utilisables à plusieurs niveaux** :
@@ -80,5 +81,6 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 |Ajouts|`supplied`|`reason="editorial"`, `cert` (niveau de certitude)|Par exemple traductions
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
 |Corrections|`corr`|`cert` (niveau de certitude)|Réservé aux lapsus évidents
+|Incertitudes|`unclear`|`cert` (niveau de certitude)|Parties physiquement illisibles ou douteuses
 
 **Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la normalisation de la typographie, les légères reformulations, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
