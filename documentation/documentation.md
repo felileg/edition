@@ -77,8 +77,8 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 
 |Élément|Balise TEI|Attribut|Remarque|
 |---|---|---|---|
-|Ajouts|`supplied`|`reason="editorial"`|Par exemple traductions
+|Ajouts|`supplied`|`reason="editorial"`, `cert` (niveau de certitude)|Par exemple traductions
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
-|Corrections|`corr`|`cert` (niveau de certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Réservé aux lapsus évidents
+|Corrections|`corr`|`cert` (niveau de certitude)|Réservé aux lapsus évidents
 
 **Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la normalisation de la typographie, les légères reformulations, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.

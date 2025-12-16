@@ -45,7 +45,7 @@
 
 					<sense>
 						<def>Ail.</def>
-						<note>On leur accorde une grande efficacité médicinale ; un sujet me disait : <q xml:lang="patois">s’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q> <supplied>(si on savait comme les ails sont bons, on en planterait un canton).</supplied></note>
+						<note>On leur accorde une grande efficacité médicinale ; un sujet me disait : <q xml:lang="patois">s’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q> <supplied cert="high">(si on savait comme les ails sont bons, on en planterait un canton).</supplied></note>
 					</sense>
 				</entry>
 				<entry>
@@ -63,19 +63,36 @@
 							Haut, haute.
 						</def>
 						<note type="example">
-							<q xml:lang="patois">Par tro ā, tro bẹ</q> : <supplied reason="editorial">prendre (faucher) trop haut, trop bas</supplied>.
+							<q xml:lang="patois">Par tro ā (tro bẹ), sꭒ̯ayīᵊ ā</q> : <supplied cert="high">"prendre trop haut" (ou trop bas), "faucher haut"</supplied> : <supplied cert="medium">faucher trop haut (ou trop bas)</supplied>.
 						</note>
 						<note type="example">
 							<q xml:lang="patois">Āt dė kꭒₔ</q> : "haute de queue", se dit d’une vache dont la racine de la queue est trop élevée.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Lə a mā</q> : le haut mal, le mal caduc (<supplied reason="editorial">épilepsie)</supplied>.
+							<q xml:lang="patois">Lə a mā</q> : le haut mal, le mal caduc (<supplied cert="high">épilepsie)</supplied>.
 						</note>
 						<note type="example">
 							<q xml:lang="patois">Lę tšẽbr a</q> : "la chambre haute", chambre située au premier étage.
 						</note>
 						<note type="example">
 							<q xml:lang="patois">S’ā dẹ džã ā pyęsīₔ</q> : "c'est des gens haut placés", qui jouissent d'une situation supérieure, financière ou autre.
+						</note>
+						<note type="example">
+							<q xml:lang="patois">Lę āt ętšăt</q> : <supplied cert="high">"la haute abeille"</supplied>, <supplied cert="low">la reine</supplied>
+						</note>
+						<note type="example">
+							<q xml:lang="patois">Fęr dẹ ā dzęvẹ</q> : <supplied cert="medium">"faire des hautes javelles"</supplied>, <supplied cert="unknown">?</supplied>
+						</note>
+						<note type="example">
+							<q xml:lang="patois">Lę at grẽdž</q> :  <supplied cert="high">"la haute grange"</supplied>,
+							<supplied cert="high">
+								<cit>
+									<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article grange).</bibl>
+								</cit>
+							</supplied>
+						</note>
+						<note type="example">
+							<q xml:lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q> : <supplied cert="medium">"fendu haut"</supplied>, se dit de quelqu'un qui est haut sur jambes.
 						</note>
 					</sense>
 				</entry>

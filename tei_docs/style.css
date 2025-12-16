@@ -7,13 +7,10 @@
 	font-size-adjust: 0.5;
 }
 
-TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym {
+TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym, note, def {
     display: block;
 }
 
-note {
-	display: inline-block;
-}
 
 form[type=lemma], gramGrp, usg {
 	display: inline-block;
@@ -35,6 +32,10 @@ entry {
 
 entry > * {
     margin: .5rem;
+}
+
+sense > * {
+	margin-bottom: .5rem;
 }
 
 :lang(patois) {
@@ -71,6 +72,28 @@ usg::after {
 	font-style: normal;
 }
 
-supplied {
-	color: #666
+supplied, unclear {
+	text-decoration: underline dotted grey;
+}
+
+supplied[cert="medium"]::after {
+	content: "⚠";
+	color: orange;
+	font-size: .75em;
+	vertical-align: top;
+}
+
+supplied[cert="low"]::after {
+	content: "⚠";
+	color: orangered;
+	font-size: .75em;
+	vertical-align: top;
+}
+
+cit q::before {
+	content: "« ";
+}
+
+cit q::after {
+	content: " »";
 }
