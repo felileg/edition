@@ -48,32 +48,27 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 - `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
 	- `<entry xml:id="lemme" facs="facsimile.jpg">` : entrée = fiche = **mot traité**[^1].
 		- `<form xml:lang="patois">` : forme du mot en patois = **titre**.
-			- Quid du déterminant qui est souvent inclus? Peut-être avec `<colloc>` dans `<usg>` cf. [documentation](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html#DITPUS).
 		- `<gramGrp>` : **informations grammaticales**.
-			- `<colloc>` : mot utilisé en association récurrente. **Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison**
+			- `<colloc>` : mot utilisé en association récurrente. *Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison*
 			- `<pos>` : catégorie grammaticale.
 			- `<gen>` : genre.
 			- `<number>` : nombre.
 			- etc.
-		- `<usg>` : informations sur l'usage = **remarques et précisions techniques** *(j'espère que je peux l'utiliser comme ça, sinon on fera avec `lbl`?)*
-		- `<cit>` : citations ALF
-			- `<quote>` : forme ALF. *Pertinent? On pourrait n'inclure que le renvoi vers Cartodialect.*
-			- Format de la source?
+		- `<usg>` : informations sur l'usage = **remarques et précisions techniques**
+		- `<cit>` : citations ALF (evtl autres ouvrages)
+			- `<bibl>` : ALF + numéro de la carte.
+			- La forme est omise, l'essentiel est de savoir que le lemme y est mentionné.
 		- `<etym>` : étymologie.
 		- `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
 			- `<def>` : définition ou équivalent français.
-			- *Quid des exemples? La documentation demande explicitement d'utiliser `<cit>` mais ça n'a ici que peu de sens puisqu'il ne s'agit pas de citation d'un ouvrage externe?*
-				- `<q xml:lang="patois">` : citation "libre" (non-sourcée)?
+			- `<cit type="example">` : façon de noter un exemple selon la documentation (bien qu'il ne s'agisse pas d'une réelle citation).
+				- `<q xml:lang="patois">` : citation "libre" (non-sourcée) = exemple en patois
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
 **Utilisables à plusieurs niveaux** :
 - `<xr>` : renvoi vers une autre entrée.
 - `<note>` : une annotation diverse ne rentrant dans aucune des catégorie précédente.
 - `<oRef/>` : abréviation dans la définition du mot en question (typographiquement rendu par ~)
-
-À voir
-- `<gram>` : indication grammaticale (générique).
-- `<lbl>` : pertinent?
 
 
 [^1]: L'ID des entrées correspond au lemme, en français quand il existe, sous une forme patoise normalisée le reste du temps. J'essayerai au maximum de reprendre les titres du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite l'identification unique des mots, et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié, je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour.
@@ -86,4 +81,4 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
 |Corrections|`corr`|`cert` (niveau de certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Réservé aux lapsus évidents
 
-**Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne seront utilisés que lorsque que du **contenu** est réellement créé/supprimé, par exemple l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la légère reformulation, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
+**Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la typographie, la légère reformulation, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
