@@ -61,7 +61,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 		- `<etym>` : étymologie.
 		- `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
 			- `<def>` : définition ou équivalent français.
-			- *Quid des exemples? La documentation demande techniquement d'utiliser `<cit>` mais ça n'a ici que peu de sens puisqu'il ne s'agit pas de citation d'un ouvrage externe?*
+			- *Quid des exemples? La documentation demande explicitement d'utiliser `<cit>` mais ça n'a ici que peu de sens puisqu'il ne s'agit pas de citation d'un ouvrage externe?*
 				- `<q xml:lang="patois">` : citation "libre" (non-sourcée)?
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
