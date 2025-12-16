@@ -81,4 +81,4 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
 |Corrections|`corr`|`cert` (niveau de certitude), `resp` (ID de l'éditeur-ice responsable de la correction)|Réservé aux lapsus évidents
 
-**Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la typographie, la légère reformulation, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
+**Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la normalisation de la typographie, les légères reformulations, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
