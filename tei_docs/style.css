@@ -1,18 +1,76 @@
-TEI, text, group, div, ul, ol, li, p, entry, form, sense {
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	font-family: "Vollkorn", "Linux Libertine G", "Junicode Medium", "Junicode", "Georgia", Times;
+	font-size-adjust: 0.5;
+}
+
+TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym {
     display: block;
 }
+
+note {
+	display: inline-block;
+}
+
+form[type=lemma], gramGrp, usg {
+	display: inline-block;
+}
+
+gramGrp, usg {
+	margin-left: 0.5em;
+}
+
 teiHeader {
     display: none;
 }
+
 entry {
     max-width: 400px;
     margin: 1rem auto;
     border: outset 1px;
 }
+
 entry > * {
-    margin: 1rem;
+    margin: .5rem;
 }
 
-:lang(pat) {
+:lang(patois) {
     font-style: italic;
+	font-family: "Junicode";
+	font-weight: 500;
+}
+
+form[type=lemma], def {
+	font-weight: 600 !important;
+}
+
+form[type=lemma] {
+	font-size: 1.25rem;
+	font-style: normal !important;
+}
+
+bibl, etym {
+	font-size: 0.75rem;
+	text-align: right;
+}
+
+etym {
+	font-variant: small-caps;
+}
+
+usg::before {
+	content: "(";
+	font-style: normal;
+}
+
+usg::after {
+	content: ")";
+	font-style: normal;
+}
+
+supplied {
+	color: #666
 }
