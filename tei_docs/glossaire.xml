@@ -128,7 +128,33 @@
 						<form type="variant" xml:lang="patois">abnẹtīₔ</form>
 					</form>
 					<sense>
-						<def>Bénitier, "eau-bénitier".</def>
+						<def>Bénitier.</def>
+						<note type="comment">"Eau-bénitier".</note>
+					</sense>
+				</entry>
+				<entry xml:id="eau-bénite" facs="facs/Jolidon_A1.png-007.png">
+					<form>
+						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
+							<usg type="colloc">l'abnīₑ̇</usg>
+						</gramGrp>
+					</form>
+					<cit>
+						<bibl>
+							ALF, carte 125
+						</bibl>
+					</cit>
+					<sense>
+						<def>Eau bénite.</def>
+						<note type="example">
+							<q xml:lang="patois">Ęprẹ l’abniₔ</q> : après l'aspergès.
+						</note>
+						<note type="example">
+							<q xml:lang="patois">Tšẽpę̄ d l’abniₔ</q> : <supplied>jeter de l'eau bénite.</supplied>
+						</note>
+						<gap reason="editorial"/>
 					</sense>
 				</entry>
 			</div1>
