@@ -24,8 +24,8 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div1 type="alpha" xml:id="a" facs="Jolidon_A1.png-001.png">
-				<entry xml:id="ail" facs="Jolidon_A1.png-003.png">
+			<div1 type="alpha" xml:id="a" facs="facs/Jolidon_A1.png-001.png">
+				<entry xml:id="ail" facs="facs/Jolidon_A1.png-003.png">
 
 					<form>
 						<form type="lemma" xml:lang="patois">ā</form>
@@ -49,7 +49,7 @@
 						<note type="example"> <q xml:lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q> <supplied cert="high">(si on savait comme les ails sont bons, on en planterait un canton).</supplied></note>
 					</sense>
 				</entry>
-				<entry>
+				<entry xml:id="haut-e" facs="facs/Jolidon_A1.png-004.png">
 					<form>
 						<form type="lemma" xml:lang="patois">ā</form>,
 						<form type="lemma" xml:lang="patois">āt</form>
@@ -97,7 +97,40 @@
 						</note>
 					</sense>
 				</entry>
-
+				<entry xml:id="hauts" facs="facs/Jolidon_A1.png-002.png">
+					<form>
+						<form type="lemma" xml:lang="patois">
+							ā
+						</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="m">m.</gen>
+							<number value="plural"/>
+							<usg type="colloc" xml:lang="patois">lẹ ā</usg>
+							<usg>Ne s'emploie qu'au pluriel</usg>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>"Les hauts"</def>
+						<note>
+							S'emploie en opposition à <q xml:lang="patois">lẹ bẹ</q> ("les bas") et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
+						</note>
+					</sense>
+				</entry>
+				<entry xml:id="bénitier" facs="facs/Jolidon_A1.png-006.png">
+					<form>
+						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">m.</gen>
+							<usg type="colloc" xml:lang="patois">ĩn abnīₑ̇</usg>
+						</gramGrp>
+						<form type="variant" xml:lang="patois">abnẹtīₔ</form>
+					</form>
+					<sense>
+						<def>Bénitier, "eau-bénitier".</def>
+					</sense>
+				</entry>
 			</div1>
 		</body>
 	</text>

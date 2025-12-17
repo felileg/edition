@@ -12,11 +12,11 @@ TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym, note,
 }
 
 
-form[type=lemma], gramGrp, usg {
+form[type=lemma], form[type=variant], gramGrp, usg {
 	display: inline-block;
 }
 
-gramGrp, usg {
+form[type=variant], gramGrp, usg {
 	margin-left: 0.5em;
 }
 
@@ -51,6 +51,11 @@ form[type=lemma], def {
 form[type=lemma] {
 	font-size: 1.25rem;
 	font-style: normal !important;
+}
+
+form[type=variant]::before {
+	content: "var: ";
+	font-style: normal;
 }
 
 bibl, etym {
