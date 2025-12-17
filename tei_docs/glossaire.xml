@@ -157,6 +157,48 @@
 						<gap reason="editorial"/>
 					</sense>
 				</entry>
+				<entry xml:id="havresac">
+					<form>
+						<form type="lemma" xml:lang="patois">
+							abresă
+						</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen>m.</gen>
+						</gramGrp>
+					</form>
+					<cit>
+						<bibl>
+							Tappolet, Lehnw. 72
+						</bibl>
+					</cit>
+					<sense>
+						<def>
+							Havresac, sac de touriste.
+						</def>
+						<note type="example">
+							<q xml:lang="patois"></q>
+						</note>
+					</sense>
+				</entry>
+				<entry xml:id="">
+					<form>
+						<form type="lemma" xml:lang="patois">
+
+						</form>
+						<gramGrp>
+							<pos></pos>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+
+						</def>
+						<note type="example">
+							<q xml:lang="patois"></q>
+						</note>
+					</sense>
+				</entry>
 			</div1>
 		</body>
 	</text>
