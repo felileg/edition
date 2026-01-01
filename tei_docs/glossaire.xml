@@ -148,9 +148,9 @@
 					</cit>
 					<sense>
 						<def>Eau bénite.</def>
-						<note type="example">
+						<cit type="example">
 							<q xml:lang="patois">Ęprẹ l’abniₔ</q> : après l'aspergès.
-						</note>
+						</cit>
 						<note type="example">
 							<q xml:lang="patois">Tšẽpę̄ d l’abniₔ</q> : <supplied>jeter de l'eau bénite.</supplied>
 						</note>
@@ -181,7 +181,7 @@
 						</note>
 					</sense>
 				</entry>
-				<entry xml:id="">
+				<entry xml:id="_">
 					<form>
 						<form type="lemma" xml:lang="patois">
 
