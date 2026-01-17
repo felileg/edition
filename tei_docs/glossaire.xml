@@ -24,9 +24,9 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div1 type="alpha" xml:id="a" facs="facs/Jolidon_A1.png-001.png">
-				<entry xml:id="ail" facs="facs/Jolidon_A1.png-003.png">
+			<div type="alpha" xml:id="a" facs="facs/Jolidon_A1.png-001.png">
 
+				<entry xml:id="ail" facs="facs/Jolidon_A1.png-003.png">
 					<form>
 						<form type="lemma" xml:lang="patois">ā</form>
 						<gramGrp>
@@ -49,6 +49,7 @@
 						<note type="example"> <q xml:lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q> <supplied cert="high">(si on savait comme les ails sont bons, on en planterait un canton).</supplied></note>
 					</sense>
 				</entry>
+
 				<entry xml:id="haut-e" facs="facs/Jolidon_A1.png-004.png">
 					<form>
 						<form type="lemma" xml:lang="patois">ā</form>,
@@ -88,7 +89,7 @@
 							<q xml:lang="patois">Lę at grẽdž</q> : <supplied cert="high">"la haute grange"</supplied>,
 							<supplied cert="high">
 								<cit>
-									<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article "grange").</bibl>
+									<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article « grange »).</bibl>
 								</cit>
 							</supplied>
 						</note>
@@ -97,6 +98,7 @@
 						</note>
 					</sense>
 				</entry>
+
 				<entry xml:id="hauts" facs="facs/Jolidon_A1.png-002.png">
 					<form>
 						<form type="lemma" xml:lang="patois">
@@ -117,6 +119,7 @@
 						</note>
 					</sense>
 				</entry>
+
 				<entry xml:id="bénitier" facs="facs/Jolidon_A1.png-006.png">
 					<form>
 						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
@@ -132,6 +135,7 @@
 						<note type="comment">"Eau-bénitier".</note>
 					</sense>
 				</entry>
+
 				<entry xml:id="eau-bénite" facs="facs/Jolidon_A1.png-007.png">
 					<form>
 						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
@@ -157,6 +161,7 @@
 						<gap reason="editorial"/>
 					</sense>
 				</entry>
+
 				<entry xml:id="havresac">
 					<form>
 						<form type="lemma" xml:lang="patois">
@@ -181,6 +186,7 @@
 						</note>
 					</sense>
 				</entry>
+
 				<entry xml:id="_">
 					<form>
 						<form type="lemma" xml:lang="patois">
@@ -199,7 +205,8 @@
 						</note>
 					</sense>
 				</entry>
-			</div1>
+
+			</div>
 		</body>
 	</text>
 </TEI>
