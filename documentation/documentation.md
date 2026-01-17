@@ -38,9 +38,9 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 ## Éléments à baliser
 
 ### Modules TEI utilisés
-- *TEI Lite* 
-- *Dictionaries*
-- Quelques éléments de *Transcr* (module de transcription des sources primaires)
+- *TEI Lite* comme base
+- Module [dictionnaires](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html)
+- Quelques éléments du module de [transcription des sources primaires](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html)
 
 ### Éléments de structure
 
