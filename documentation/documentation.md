@@ -33,7 +33,7 @@ Les différents éléments doivent être balisés pour pouvoir faire l'objet de 
 
 4. **Graphie phonétique réservée aux initiés**
 
-Le patois (en graphie phonétique) doit être séparément balisé du français, pour réserver à terme la possibilité d'une conversion automatique de la graphie.
+Le patois (en graphie phonétique) doit être séparément balisé du français, pour réserver à terme la possibilité d'une éventuelle conversion automatisée de la graphie.
 
 ## Éléments à baliser
 
