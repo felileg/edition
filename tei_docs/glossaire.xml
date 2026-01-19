@@ -127,15 +127,15 @@
 				<entry xml:id="hauts" facs="facs/Jolidon_A1.png-002.png">
 					<form>
 						<form type="lemma" xml:lang="patois">
-							ā
+						ā
 						</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
 							<number value="plural"/>
-							<usg type="colloc" xml:lang="patois">lẹ ā</usg>
-							<usg>ne s'emploie qu'au pluriel</usg>
 						</gramGrp>
+						<usg type="colloc" xml:lang="patois">lẹ ā</usg>
+						<usg>ne s'emploie qu'au pluriel</usg>
 					</form>
 					<sense>
 						<def>«Les hauts»</def>
@@ -148,6 +148,7 @@
 				<entry xml:id="bénitier" facs="facs/Jolidon_A1.png-006.png">
 					<form>
 						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
+											
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">m.</gen>
@@ -216,11 +217,12 @@
 				<entry xml:id="audience" facs="facs/Jolidon_A1.png-009.png">
 					<form>
 						<form type="lemma" xml:lang="patois">adyẽs</form>,
-						<form type="variant" xml:lang="patois">ādyẽs</form>
+						
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
 						</gramGrp>
+						<form type="variant" xml:lang="patois">ādyẽs</form>
 					</form>
 					<sense>
 						<def>
@@ -236,11 +238,11 @@
 				<entry xml:id="auge" facs="facs/Jolidon_A1.png-010.png">
 					<form>
 						<form type="lemma" xml:lang="patois">adž</form>
-						<form type="variant" xml:lang="patois">odž</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
 						</gramGrp>
+						<form type="variant" xml:lang="patois">odž</form>
 					</form>
 					<sense>
 						<def>
@@ -258,7 +260,7 @@
 					<form>
 						<form type="lemma" xml:lang="patois">ādždœ̄</form>
 						<gramGrp>
-							<pos value="adverb">adv</pos>
+							<pos value="adverb">adv.</pos>
 						</gramGrp>
 						<form type="variant" xml:lang="patois">aždœ̄</form>
 						<usg><q xml:lang="patois">-džd-</q> souvent simplifié en <q xml:lang="patois">-žd-</q></usg>

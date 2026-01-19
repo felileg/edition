@@ -49,6 +49,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 	- `<entry xml:id="(lemme)" facs="(scan de l'original)">` : entrée = regroupe toutes les informations au sujet du mot traité.
 		- `<form>` : regroupe les différentes formes et infos grammaticales.
 			- `<form type="lemma" xml:lang="patois">` : forme canonique du mot en patois = **titre**.
+			- `<form type="variant" xml:lang="patois">` : variante.
 			- `<gramGrp>` : **informations grammaticales**.
 				- `<usg type="colloc" xml:lang="patois">` : mot en association récurrente avec le lemme. *Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison*
 				- `<pos>` : catégorie grammaticale.
@@ -57,14 +58,18 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 				- etc.
 		- `<usg>` : informations sur l'usage = **autres remarques et précisions techniques**
 		- `<cit>` : citations de l'*Atlas Linguistique de la France* (ALF), éventuellement d'autres ouvrages
-			- `<bibl>` : ALF + numéro de la carte.
+			- `<bibl>` : ouvrage + numéro de la carte.
 			- Pour le moment, la forme linguistique n'est pas recopiée. Elle pourrait l'être à l'aide de `<form>`.
 		- `<etym>` : étymologie.
 		- `<sense>` : regroupe ce qui touche à la **traduction**, **définition** et **exemples** du mot.
 			- `<def>` : définition ou équivalent français.
-			- `<note type="example">` : regroupe les exemples, leurs traductions et leurs explications.
-				- `<q xml:lang="patois">` : **exemple en patois**
+			- `<note type="example">` : regroupe les exemples, leurs traductions et leurs explications[^1].
+				- `<q xml:lang="patois">` : exemple en patois
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
+
+[^1]: Le module TEI *dictionnaires* est essentiellement destiné aux dictionnaires classiques, monolingues, imprimés et aux exemples tirés de sources bibliographiques. Le glossaire de Jolidon est un cas bien plus complexe, faisant figurer des sources orales spontanées (sans source bibliographique) et des restitutions ultérieures (manuscrit partiellement incomplet)
+
+formellement, on serait censé utiliser `<cit type="example">`
 
 **Utilisables à plusieurs niveaux** :
 - `<xr>` : renvoi vers une autre entrée.
