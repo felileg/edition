@@ -45,34 +45,32 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 ### Éléments de structure
 
 **Hiérarchie** :
-- `<div1 type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
-	- `<entry xml:id="lemme" facs="facsimile.png">`[^1] : entrée = **mot traité**.
-		- `<form>` : conteneur des différentes formes et infos grammaticales (TEI est trop strict et ne me laisse pas utiliser de simple `div`)
-			- `<form type="lemma" xml:lang="patois">` : forme du mot en patois = **titre**.
+- `<div type="alpha" xml:id="a-b">` : paquet alphabétique de fiches
+	- `<entry xml:id="lemme" facs="facsimile.png">` : entrée = regroupe toutes les informations au sujet du mot traité.
+		- `<form>` : regroupe les différentes formes et infos grammaticales.
+			- `<form type="lemma" xml:lang="patois">` : forme canonique du mot en patois = **titre**.
 			- `<gramGrp>` : **informations grammaticales**.
 				- `<usg type="colloc" xml:lang="patois">` : mot en association récurrente avec le lemme. *Usage typique : les déterminants mentionnés pour préciser le genre ou la liaison*
 				- `<pos>` : catégorie grammaticale.
 				- `<gen>` : genre.
 				- `<number>` : nombre.
 				- etc.
-		- `<usg>` : informations sur l'usage = **remarques et précisions techniques**
-		- `<cit>` : citations ALF (evtl autres ouvrages)
+		- `<usg>` : informations sur l'usage = **autres remarques et précisions techniques**
+		- `<cit>` : citations de l'*Atlas Linguistique de la France* (ALF), éventuellement d'autres ouvrages
 			- `<bibl>` : ALF + numéro de la carte.
-			- La forme est omise, l'essentiel est de savoir que le lemme y est mentionné.
+			- Pour le moment, la forme linguistique n'est pas recopiée. Elle pourrait l'être à l'aide de `<form>`.
 		- `<etym>` : étymologie.
-		- `<sense>` : tout ce qui touche à la **traduction**, **définition** et **exemples** du mot.
+		- `<sense>` : regroupe ce qui touche à la **traduction**, **définition** et **exemples** du mot.
 			- `<def>` : définition ou équivalent français.
-			- `<note type="example">` : de nouveau, contenant arbitraire à cause de la syntaxe trop stricte de TEI.
-				- `<q xml:lang="patois">` : citation "libre" (non-sourcée) = **exemple en patois**
+			- `<note type="example">` : contenant arbitraire à cause de la syntaxe trop stricte.
+				- `<q xml:lang="patois">` : citation non-sourcée = **exemple en patois**
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
 **Utilisables à plusieurs niveaux** :
 - `<xr>` : renvoi vers une autre entrée.
 - `<note>` : une annotation diverse ne rentrant dans aucune des catégorie précédente.
-- `<oRef/>` : abréviation dans la définition du mot en question (typographiquement rendu par ~)
+- `<oRef/>` : abréviation dans la définition du mot en question (généralement rendu par ~)
 
-
-[^1]: L'ID des entrées correspond au lemme, en français quand il existe, sous une forme patoise normalisée le reste du temps. J'essayerai au maximum de reprendre les titres du [Glossaire des patois de la Suisse romande](https://portail-gpsr.unine.ch/). Cela facilite l'identification unique des mots, et le renvoi vers cet ouvrage qui fait référence. Comme celui-ci n'est pas encore entièrement publié, je devrai compter sur la collaboration avec cette institution si l'édition du glossaire de Saint-Brais voit le jour.
 
 ### Éléments éditoriaux
 

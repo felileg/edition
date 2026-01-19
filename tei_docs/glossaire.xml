@@ -2,30 +2,34 @@
 <?xml-stylesheet href="style.css" type="text/css"?>
 <?xml-model href="xsd/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+	<teiHeader xml:lang="fr">
 		<fileDesc>
 			<titleStmt>
-				<title>Glossaire de Saint-Brais par Robert Jolidon</title>
+				<title>Glossaire du patois de Saint-Brais: édition numérique</title>
+				<author>Robert Jolidon</author>
 				<respStmt>
-					<resp>Mise en forme par</resp>
+					<resp>transcription et traduction par</resp>
+					<name>Médéric de Pury</name>
+				</respStmt>
+				<respStmt>
+					<resp>transcription, traduction et mise en forme aux normes de la TEI par</resp>
 					<name>Félix Légeret</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<p>
-					
-				</p>
+				<p>Le matériau original, récolté entre 1942 et 1952, faisait partie à l'origine d'une thèse défendue par Robert Jolidon en 1950 à l'Université de Zurich. Sans cesse augmenté et remanié par son auteur, le glossaire de Saint-Brais n'a jamais été terminé ni publié. Les documents originaux sont conservés depuis 1974 au Musée jurassien d'art et d'histoire (Delémont).</p>
+				<p>La présente édition est autant un travail de balisage que de reconstruction. L'original se présente en effet sous une forme assez brute: fichier manuscrit, structure parfois irrégulière, nombreuses traductions manquantes. Pour plus d'infos, voir <ref target="https://github.com/felileg/edition/blob/main/documentation/documentation.md">documentation</ref>.</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Robert Jolidon. Glossaire de Saint-Brais (1946-1952). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
+				<p><name>Robert Jolidon</name>. Glossaire de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
 			</sourceDesc>
 		</fileDesc>
 		
 	</teiHeader>
-	<text>
+	<text xml:lang="fr">
 		<body>
 			<div type="alpha" xml:id="a" facs="facs/Jolidon_A1.png-001.png">
-
+				
 				<entry xml:id="ail" facs="facs/Jolidon_A1.png-003.png">
 					<form>
 						<form type="lemma" xml:lang="patois">ā</form>
@@ -36,20 +40,23 @@
 						<usg type="colloc" xml:lang="patois">l’ā</usg>
 						<usg type="colloc" xml:lang="patois">lẹz_ā</usg>
 					</form>
-
+					
 					<cit>
 						<bibl>
 							ALF, carte 17.
 						</bibl>
 					</cit>
-
+					
 					<sense>
 						<def>Ail.</def>
 						<note>On leur accorde une grande efficacité médicinale ; un sujet me disait :</note>
-						<note type="example"> <q xml:lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q> <supplied cert="high">(si on savait comme les ails sont bons, on en planterait un canton).</supplied></note>
+						<cit type="example">
+							<q xml:lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q>
+							<def><supplied cert="high">si on savait comme les ails sont bons, on en planterait un canton.</supplied></def>
+						</cit>
 					</sense>
 				</entry>
-
+				
 				<entry xml:id="haut-e" facs="facs/Jolidon_A1.png-004.png">
 					<form>
 						<form type="lemma" xml:lang="patois">ā</form>,
@@ -58,47 +65,65 @@
 							<pos value="adjective">adj.</pos>
 						</gramGrp>
 					</form>
-
+					
 					<etym xml:lang="lat">&gt; altu, -a</etym>
 					<sense>
 						<def>
 							Haut, haute.
 						</def>
-						<note type="example">
-							<q xml:lang="patois">Par tro ā (tro bẹ), sꭒ̯ayīᵊ ā</q> : <supplied cert="high">"prendre trop haut" (ou trop bas), "faucher haut"</supplied> : <supplied cert="medium">faucher trop haut (ou trop bas)</supplied>.
-						</note>
-						<note type="example">
-							<q xml:lang="patois">Āt dė kꭒₔ</q> : "haute de queue", se dit d’une vache dont la racine de la queue est trop élevée.
-						</note>
-						<note type="example">
-							<q xml:lang="patois">Lə a mā</q> : le haut mal, le mal caduc (<supplied cert="high">épilepsie)</supplied>.
-						</note>
-						<note type="example">
-							<q xml:lang="patois">Lę tšẽbr a</q> : "la chambre haute", chambre située au premier étage.
-						</note>
-						<note type="example">
-							<q xml:lang="patois">S’ā dẹ džã ā pyęsīₔ</q> : "c'est des gens haut placés", qui jouissent d'une situation supérieure, financière ou autre.
-						</note>
-						<note type="example">
-							<q xml:lang="patois">Lę āt ętšăt</q> : <supplied cert="high">"la haute abeille"</supplied>, <supplied cert="low">la reine</supplied>
-						</note>
-						<note type="example">
-							<q xml:lang="patois">Fęr dẹ ā džęvẹ</q> : <supplied cert="medium">"faire des hautes javelles"</supplied>, <supplied cert="unknown">?</supplied>
-						</note>
-						<note type="example">
-							<q xml:lang="patois">Lę at grẽdž</q> : <supplied cert="high">"la haute grange"</supplied>,
-							<supplied cert="high">
-								<cit>
-									<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article « grange »).</bibl>
-								</cit>
-							</supplied>
-						</note>
-						<note type="example">
-							<q xml:lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q> : <supplied cert="medium">"fendu haut"</supplied>, se dit de quelqu'un qui est haut sur jambes.
-						</note>
+						<cit type="example">
+							<q xml:lang="patois">Par tro ā<gap reason="editorial"/>, sꭒ̯ayīᵊ ā</q>
+							<def><supplied cert="high">«prendre trop haut», «faucher haut»</supplied> : <supplied cert="high">faucher trop haut</supplied>.</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois">Āt dė kꭒₔ</q>
+							<def>«haute de queue», se dit d’une vache dont la racine de la queue est trop élevée.</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois">Lə a mā</q>
+							<def>le haut mal, le mal caduc (<supplied cert="high">épilepsie)</supplied>.</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois">Lę tšẽbr a</q>
+							<def>«la chambre haute», chambre située au premier étage.</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois">S’ā dẹ džã ā pyęsīₔ</q>
+							<def>«c'est des gens haut placés», qui jouissent d'une situation supérieure, financière ou autre.</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois">Lę āt ętšăt</q>
+							<def><supplied cert="high">«la haute abeille»</supplied>, <supplied cert="low">la reine</supplied></def>
+						</cit>
+						
+						<pb facs="facs/Jolidon_A1.png-005.png"/>
+						
+						<cit type="example">
+							<q xml:lang="patois">Fęr dẹ ā džęvẹ</q>
+							<def>
+								<supplied cert="medium">«faire des hautes javelles»</supplied>, <supplied cert="unknown">?</supplied>
+							</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois">Lę at grẽdž</q>
+							<def>
+								<supplied cert="high">«la haute grange»</supplied>,
+								<supplied cert="high">
+									<cit>
+										<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article « grange »).</bibl>
+									</cit>
+								</supplied>
+							</def>
+						</cit>
+						<cit type="example">
+							<q xml:lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q>
+							<def>
+								<supplied cert="medium">«fendu haut»</supplied>, se dit de quelqu'un qui est haut sur jambes.
+							</def>
+						</cit>
 					</sense>
 				</entry>
-
+				
 				<entry xml:id="hauts" facs="facs/Jolidon_A1.png-002.png">
 					<form>
 						<form type="lemma" xml:lang="patois">
@@ -109,17 +134,17 @@
 							<gen value="m">m.</gen>
 							<number value="plural"/>
 							<usg type="colloc" xml:lang="patois">lẹ ā</usg>
-							<usg>Ne s'emploie qu'au pluriel</usg>
+							<usg>ne s'emploie qu'au pluriel</usg>
 						</gramGrp>
 					</form>
 					<sense>
-						<def>"Les hauts"</def>
-						<note>
-							S'emploie en opposition à <q xml:lang="patois">lẹ bẹ</q> ("les bas") et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
-						</note>
+						<def>«Les hauts»</def>
+						<def>
+							S'emploie en opposition à <q xml:lang="patois">lẹ bẹ</q> («les bas») et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
+						</def>
 					</sense>
 				</entry>
-
+				
 				<entry xml:id="bénitier" facs="facs/Jolidon_A1.png-006.png">
 					<form>
 						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
@@ -132,10 +157,10 @@
 					</form>
 					<sense>
 						<def>Bénitier.</def>
-						<note type="comment">"Eau-bénitier".</note>
+						<note type="comment">«Eau-bénitier».</note>
 					</sense>
 				</entry>
-
+				
 				<entry xml:id="eau-bénite" facs="facs/Jolidon_A1.png-007.png">
 					<form>
 						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
@@ -153,23 +178,27 @@
 					<sense>
 						<def>Eau bénite.</def>
 						<cit type="example">
-							<q xml:lang="patois">Ęprẹ l’abniₔ</q> : après l'aspergès.
+							<q xml:lang="patois">Ęprẹ l’abniₔ</q>
+							<def>après l'aspergès.</def>
 						</cit>
-						<note type="example">
-							<q xml:lang="patois">Tšẽpę̄ d l’abniₔ</q> : <supplied>jeter de l'eau bénite.</supplied>
-						</note>
+						<cit type="example">
+							<q xml:lang="patois">Tšẽpę̄ d l’abniₔ</q>
+							<def>
+								<supplied>jeter de l'eau bénite.</supplied>
+							</def>
+						</cit>
 						<gap reason="editorial"/>
 					</sense>
 				</entry>
-
-				<entry xml:id="havresac">
+				
+				<entry xml:id="havresac" facs="facs/Jolidon_A1.png-008.png">
 					<form>
 						<form type="lemma" xml:lang="patois">
-							abresă
+							abrəsă
 						</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
-							<gen>m.</gen>
+							<gen value="m">m.</gen>
 						</gramGrp>
 					</form>
 					<cit>
@@ -181,31 +210,86 @@
 						<def>
 							Havresac, sac de touriste.
 						</def>
-						<note type="example">
-							<q xml:lang="patois"></q>
-						</note>
 					</sense>
 				</entry>
-
-				<entry xml:id="_">
+				
+				<entry xml:id="audience" facs="facs/Jolidon_A1.png-009.png">
 					<form>
-						<form type="lemma" xml:lang="patois">
-
-						</form>
+						<form type="lemma" xml:lang="patois">adyẽs</form>,
+						<form type="variant" xml:lang="patois">ādyẽs</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Audience, séance de tribunal.
+						</def>
+						<cit type="example">
+							<q xml:lang="patois">Alę ã l’adyẽs</q>
+							<def>aller à l’audience, se rendre à une séance de tribunal pour un procès, comparaitre en justice.</def>
+						</cit>
+					</sense>
+				</entry>
+				
+				<entry xml:id="auge" facs="facs/Jolidon_A1.png-010.png">
+					<form>
+						<form type="lemma" xml:lang="patois">adž</form>
+						<form type="variant" xml:lang="patois">odž</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Auge.
+						</def>
+						<gap reason="editorial"/>
+						<supplied>
+							Voir Glossaire des patois de la Suisse romande.
+							<bibl>(GPSR, article «auge»)</bibl>
+						</supplied>
+					</sense>
+				</entry>
+				
+				<entry xml:id="aujourdhui" facs="facs/Jolidon_A1.png-009.png">
+					<form>
+						<form type="lemma" xml:lang="patois">ādždœ̄</form>
+						<gramGrp>
+							<pos value="adverb">adv</pos>
+						</gramGrp>
+						<form type="variant" xml:lang="patois">aždœ̄</form>
+						<usg><q xml:lang="patois">-džd-</q> souvent simplifié en <q xml:lang="patois">-žd-</q></usg>
+					</form>
+					<sense>
+						<def>
+							
+						</def>
+						<cit type="example">
+							<q xml:lang="patois"></q>
+						</cit>
+					</sense>
+				</entry>				
+				
+				<entry xml:id="x" facs="facs/Jolidon_A1.png-009.png">
+					<form>
+						<form type="lemma" xml:lang="patois"></form>
 						<gramGrp>
 							<pos></pos>
 						</gramGrp>
 					</form>
 					<sense>
 						<def>
-
+							
 						</def>
-						<note type="example">
+						<cit type="example">
 							<q xml:lang="patois"></q>
-						</note>
+						</cit>
 					</sense>
 				</entry>
-
+				
 			</div>
 		</body>
 	</text>

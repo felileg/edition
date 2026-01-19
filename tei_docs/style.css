@@ -11,13 +11,17 @@ TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym, note,
     display: block;
 }
 
+note[type="example"] {
+	display: list-item;
+	margin-left: 1rem;
+}
 
 form[type=lemma], form[type=variant], gramGrp, usg {
 	display: inline-block;
 }
 
 form[type=variant], gramGrp, usg {
-	margin-left: 0.5em;
+	margin-left: 0.5ex;
 }
 
 teiHeader {
@@ -50,7 +54,6 @@ form[type=lemma], def {
 
 form[type=lemma] {
 	font-size: 1.25rem;
-	font-style: normal !important;
 }
 
 form[type=variant]::before {
@@ -59,7 +62,6 @@ form[type=variant]::before {
 }
 
 bibl, etym {
-	font-size: 0.75rem;
 	text-align: right;
 }
 
@@ -67,12 +69,17 @@ etym {
 	font-variant: small-caps;
 }
 
-usg::before {
+usg::after {
+	content: ",";
+	font-style: normal;
+}
+
+usg:first-of-type::before {
 	content: "(";
 	font-style: normal;
 }
 
-usg::after {
+usg:last-of-type::after {
 	content: ")";
 	font-style: normal;
 }
@@ -82,23 +89,23 @@ supplied, unclear {
 }
 
 supplied[cert="medium"]::after {
-	content: "⚠";
-	color: orange;
+	content: "?";
+	color: gray;
 	font-size: .75em;
 	vertical-align: top;
 }
 
 supplied[cert="low"]::after {
 	content: "⚠";
-	color: orangered;
+	color: gray;
 	font-size: .75em;
 	vertical-align: top;
 }
 
-cit q::before {
+/* cit q::before {
 	content: "« ";
 }
 
 cit q::after {
 	content: " »";
-}
+} */
