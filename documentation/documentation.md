@@ -45,7 +45,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 ### Éléments de structure
 
 **Hiérarchie** :
-- `<div type="alpha" xml:id="(lettres traitées)">` : paquet alphabétique de fiches
+- `<div type="alpha" xml:id="(lettres traitées)">` : paquet alphabétique de fiches.
 	- `<entry xml:id="(lemme)" facs="(scan de l'original)">` : **entrée**, regroupe toutes les informations au sujet du mot traité.
 		- `<form>` : regroupe les différentes **formes** et informations grammaticales.
 			- `<form type="lemma" xml:lang="patois">` : **titre**, forme canonique du mot.
