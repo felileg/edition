@@ -47,8 +47,8 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 **Hiérarchie** :
 - `<div type="alpha" xml:id="(lettres traitées)">` : paquet alphabétique de fiches
 	- `<entry xml:id="(lemme)" facs="(scan de l'original)">` : entrée, regroupe toutes les informations au sujet du mot traité.
-		- `<form>` : regroupe les différentes formes et infos grammaticales.
-			- `<form type="lemma" xml:lang="patois">` : titre, forme canonique du mot en patois.
+		- `<form>` : regroupe les différentes **formes** et informations grammaticales.
+			- `<form type="lemma" xml:lang="patois">` : **titre**, forme canonique du mot.
 			- `<form type="variant" xml:lang="patois">` : variante.
 			- `<gramGrp>` : précisions grammaticales.
 				- `<usg type="colloc" xml:lang="patois">` : mot en association récurrente avec le lemme. *Typiquement : les déterminants mentionnés pour préciser le genre ou la liaison*
@@ -57,11 +57,11 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 				- `<number>` : nombre.
 				- etc.
 		- `<usg>` : autres précisions sur l'usage.
-		- `<cit>` : citations du mot en question dans l'*Atlas Linguistique de la France* (ALF), éventuellement dans d'autres ouvrages
+		- `<cit>` : mentions du mot dans l'*Atlas Linguistique de la France* (ALF), éventuellement dans d'autres ouvrages.
 			- `<bibl>` : ouvrage + numéro de la carte.
 			- Pour le moment, la forme linguistique n'est pas recopiée. Elle pourrait l'être à l'aide de `<quote>`.
 		- `<etym>` : étymologie.
-		- `<sense>` : regroupe ce qui touche à la traduction, à la définition et aux exemples du mot.
+		- `<sense>` : **sens**, regroupe ce qui touche à la traduction, à la définition et aux exemples du mot. 
 			- `<def>` : définition ou équivalent français.
 			- `<note type="example">` : regroupe les exemples, leurs traductions et leurs explications[^1].
 				- `<q xml:lang="patois">` : exemple en patois
