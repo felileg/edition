@@ -67,7 +67,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 				- `<q xml:lang="patois">` : exemple en patois
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
-[^1]: Le module TEI *dictionnaires* est essentiellement destiné aux dictionnaires classiques, monolingues, imprimés et aux exemples tirés de sources bibliographiques. Le glossaire de Jolidon est un cas bien plus complexe, faisant figurer des sources orales spontanées (sans source bibliographique), des traductions de différents types (littérales et explicatives) et des restitutions ultérieures (dû au manuscrit partiellement incomplet). Pour cela, il est impossible d'utiliser la structure recommandée (`<cit type="example">`), qui est elle-même un détournement faute de balise adaptée.
+[^1]: Le module TEI *dictionnaires* est essentiellement destiné aux dictionnaires classiques, monolingues, imprimés et aux exemples tirés de sources bibliographiques. Le glossaire de Jolidon est un cas bien plus complexe, faisant figurer des sources orales spontanées (sans source bibliographique), des traductions de différents types (littérales ou explicatives) qu'il est souhaitable de distinguer, et des restitutions ultérieures (à cause du manuscrit partiellement incomplet). Pour cela, il est impossible d'utiliser la structure recommandée (`<cit type="example">`), qui est elle-même un détournement faute de balise adaptée.
 
 **Utilisables à plusieurs niveaux** :
 - `<xr>` : renvoi vers une autre entrée.
