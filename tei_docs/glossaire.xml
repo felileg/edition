@@ -50,10 +50,10 @@
 					<sense>
 						<def>Ail.</def>
 						<note>On leur accorde une grande efficacité médicinale ; un sujet me disait :</note>
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q>
-							<def><supplied cert="high">si on savait comme les ails sont bons, on en planterait un canton.</supplied></def>
-						</cit>
+							<supplied cert="high">si on savait comme les ails sont bons, on en planterait un canton.</supplied>
+						</note>
 					</sense>
 				</entry>
 				
@@ -71,56 +71,50 @@
 						<def>
 							Haut, haute.
 						</def>
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois">Par tro ā<gap reason="editorial"/>, sꭒ̯ayīᵊ ā</q>
-							<def><supplied cert="high">«prendre trop haut», «faucher haut»</supplied> : <supplied cert="high">faucher trop haut</supplied>.</def>
-						</cit>
-						<cit type="example">
+							<supplied cert="high">«prendre trop haut, faucher haut»</supplied> : <supplied cert="high">faucher trop haut</supplied>.
+						</note>
+						<note type="example">
 							<q xml:lang="patois">Āt dė kꭒₔ</q>
-							<def>«haute de queue», se dit d’une vache dont la racine de la queue est trop élevée.</def>
-						</cit>
-						<cit type="example">
+							«haute de queue», se dit d’une vache dont la racine de la queue est trop élevée.
+						</note>
+						<note type="example">
 							<q xml:lang="patois">Lə a mā</q>
-							<def>le haut mal, le mal caduc (<supplied cert="high">épilepsie)</supplied>.</def>
-						</cit>
-						<cit type="example">
+							le haut mal, le mal caduc <supplied cert="high">(épilepsie)</supplied>.
+						</note>
+						<note type="example">
 							<q xml:lang="patois">Lę tšẽbr a</q>
-							<def>«la chambre haute», chambre située au premier étage.</def>
-						</cit>
-						<cit type="example">
+							«la chambre haute», chambre située au premier étage.
+						</note>
+						<note type="example">
 							<q xml:lang="patois">S’ā dẹ džã ā pyęsīₔ</q>
-							<def>«c'est des gens haut placés», qui jouissent d'une situation supérieure, financière ou autre.</def>
-						</cit>
-						<cit type="example">
+							«c'est des gens haut placés», qui jouissent d'une situation supérieure, financière ou autre.
+						</note>
+						<note type="example">
 							<q xml:lang="patois">Lę āt ętšăt</q>
-							<def><supplied cert="high">«la haute abeille»</supplied>, <supplied cert="low">la reine</supplied></def>
-						</cit>
+							<supplied cert="high">«la haute abeille»</supplied>, <supplied cert="low">la reine</supplied>
+						</note>
 						
 						<pb facs="facs/Jolidon_A1.png-005.png"/>
 						
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois">Fęr dẹ ā džęvẹ</q>
-							<def>
 								<supplied cert="medium">«faire des hautes javelles»</supplied>, <supplied cert="unknown">?</supplied>
-							</def>
-						</cit>
-						<cit type="example">
+						</note>
+						<note type="example">
 							<q xml:lang="patois">Lę at grẽdž</q>
-							<def>
 								<supplied cert="high">«la haute grange»</supplied>,
 								<supplied cert="high">
 									<cit>
 										<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article « grange »).</bibl>
 									</cit>
 								</supplied>
-							</def>
-						</cit>
-						<cit type="example">
+						</note>
+						<note type="example">
 							<q xml:lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q>
-							<def>
-								<supplied cert="medium">«fendu haut»</supplied>, se dit de quelqu'un qui est haut sur jambes.
-							</def>
-						</cit>
+								<supplied cert="medium">«fendu haut»</supplied> se dit de quelqu'un qui est haut sur jambes.
+						</note>
 					</sense>
 				</entry>
 				
@@ -139,9 +133,9 @@
 					</form>
 					<sense>
 						<def>«Les hauts»</def>
-						<def>
+						<note>
 							S'emploie en opposition à <q xml:lang="patois">lẹ bẹ</q> («les bas») et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
-						</def>
+						</note>
 					</sense>
 				</entry>
 				
@@ -178,16 +172,14 @@
 					</cit>
 					<sense>
 						<def>Eau bénite.</def>
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois">Ęprẹ l’abniₔ</q>
-							<def>après l'aspergès.</def>
-						</cit>
-						<cit type="example">
+							après l'aspergès.
+						</note>
+						<note type="example">
 							<q xml:lang="patois">Tšẽpę̄ d l’abniₔ</q>
-							<def>
-								<supplied>jeter de l'eau bénite.</supplied>
-							</def>
-						</cit>
+							<supplied>jeter de l'eau bénite.</supplied>
+						</note>
 						<gap reason="editorial"/>
 					</sense>
 				</entry>
@@ -228,10 +220,10 @@
 						<def>
 							Audience, séance de tribunal.
 						</def>
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois">Alę ã l’adyẽs</q>
-							<def>aller à l’audience, se rendre à une séance de tribunal pour un procès, comparaitre en justice.</def>
-						</cit>
+							aller à l’audience, se rendre à une séance de tribunal pour un procès, comparaitre en justice.
+						</note>
 					</sense>
 				</entry>
 				
@@ -250,7 +242,7 @@
 						</def>
 						<gap reason="editorial"/>
 						<supplied>
-							Voir Glossaire des patois de la Suisse romande.
+							Copie de l'article du Glossaire des patois de la Suisse romande.
 							<bibl>(GPSR, article «auge»)</bibl>
 						</supplied>
 					</sense>
@@ -269,9 +261,9 @@
 						<def>
 							
 						</def>
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois"></q>
-						</cit>
+						</note>
 					</sense>
 				</entry>				
 				
@@ -286,9 +278,9 @@
 						<def>
 							
 						</def>
-						<cit type="example">
+						<note type="example">
 							<q xml:lang="patois"></q>
-						</cit>
+						</note>
 					</sense>
 				</entry>
 				

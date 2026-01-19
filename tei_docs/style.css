@@ -5,15 +5,11 @@
 :root {
 	font-family: "Vollkorn", "Linux Libertine G", "Junicode Medium", "Junicode", "Georgia", Times;
 	font-size-adjust: 0.5;
+	background-color: wheat;
 }
 
 TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym, note, def {
     display: block;
-}
-
-note[type="example"] {
-	display: list-item;
-	margin-left: 1rem;
 }
 
 form[type=lemma], form[type=variant], gramGrp, usg {
@@ -31,15 +27,16 @@ teiHeader {
 entry {
     max-width: 600px;
     margin: 1rem auto;
-    border: outset 1px;
+    border: outset 2px;
+	background-color: cornsilk;
 }
 
 entry > * {
-    margin: .5rem;
+    margin: 1rem;
 }
 
 sense > * {
-	margin-bottom: .5rem;
+	margin-bottom: 1rem;
 }
 
 :lang(patois) {
@@ -57,7 +54,7 @@ form[type=lemma] {
 }
 
 form[type=variant]::before {
-	content: "var: ";
+	content: "var : ";
 	font-style: normal;
 }
 
@@ -81,6 +78,16 @@ usg:first-of-type::before {
 
 usg:last-of-type::after {
 	content: ")";
+	font-style: normal;
+}
+
+note[type="example"] {
+	display: list-item;
+	margin-left: 1rem;
+}
+
+sense q::after {
+	content: " : ";
 	font-style: normal;
 }
 

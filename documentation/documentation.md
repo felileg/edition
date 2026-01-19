@@ -67,7 +67,7 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 				- `<q xml:lang="patois">` : exemple en patois
 		- `<re>` : sous-entrée (par exemple dérivé, composé)
 
-[^1]: Le module TEI *dictionnaires* est essentiellement destiné aux dictionnaires classiques, monolingues, imprimés et aux exemples tirés de sources bibliographiques. Le glossaire de Jolidon est un cas bien plus complexe, faisant figurer des sources orales spontanées (sans source bibliographique), des traductions de différents types (littérales et explicatives) et des restitutions ultérieures (dû au manuscrit partiellement incomplet). Pour cette raison, il est peu pertinent d'utiliser la structure recommandée (`<cit type="example">`), qui est elle-même du reste un détournement à la sémantique peu pertinente faute de balise plus adaptée.
+[^1]: Le module TEI *dictionnaires* est essentiellement destiné aux dictionnaires classiques, monolingues, imprimés et aux exemples tirés de sources bibliographiques. Le glossaire de Jolidon est un cas bien plus complexe, faisant figurer des sources orales spontanées (sans source bibliographique), des traductions de différents types (littérales et explicatives) et des restitutions ultérieures (dû au manuscrit partiellement incomplet). Pour cela, il est impossible d'utiliser la structure recommandée (`<cit type="example">`), qui est elle-même un détournement faute de balise adaptée.
 
 **Utilisables à plusieurs niveaux** :
 - `<xr>` : renvoi vers une autre entrée.
@@ -79,9 +79,9 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 
 |Élément|Balise TEI|Attribut|Remarque|
 |---|---|---|---|
-|Ajouts|`supplied`|`reason="editorial"`, `cert` (niveau de certitude)|Par exemple traductions
+|Ajouts|`supplied`|`cert` (niveau de certitude)|Par exemple traductions
 |Suppressions|`gap`|`reason="editorial"`|Par exemple doublons, annotations ultérieures
 |Corrections|`corr`|`cert` (niveau de certitude)|Réservé aux lapsus évidents
 |Incertitudes|`unclear`|`cert` (niveau de certitude)|Parties physiquement illisibles ou douteuses
 
-**Notice** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la normalisation de la typographie, les légères reformulations, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
+**Note** : pour des raisons d'efficacité évidentes, les balise `<supplied>` et `<gap>` ne sont utilisées que lorsque du **contenu** est réellement créé ou supprimé, par exemple par l'ajout de traductions. Cela ne concerne donc pas le développement des abréviations, la normalisation de la typographie, les légères reformulations, la réorganisation des éléments, etc., qui sont laissées à la compétence de l'éditeur·ice.
