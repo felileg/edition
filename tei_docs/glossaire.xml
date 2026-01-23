@@ -92,7 +92,12 @@
 						</note>
 						<note type="example">
 							<q xml:lang="patois">Lę āt ętšăt</q>
-							<supplied cert="high">«la haute abeille»</supplied>, <supplied cert="low">la reine</supplied>
+							<supplied cert="high">«la haute hache»</supplied>, 
+							<supplied cert="high">
+									<cit>
+										<q>Grande hache du charpentier, à long manche et fer lourd au tranchant large, maniée à deux mains pour entamer l'équarrissage par l'ébauchage des billes</q> <bibl>(GPSR, article « hache »).</bibl>
+									</cit>
+								</supplied>
 						</note>
 						
 						<pb facs="facs/Jolidon_A1.png-005.png"/>
