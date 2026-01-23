@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Junicode";
+  src:
+    local("Junicode"),
+    url("fonts/JunicodeVF-Roman.woff2") format("woff");
+    font-style: normal;
+}
+@font-face {
+  font-family: "Junicode";
+  src:
+    local("Junicode"),
+    url("fonts/JunicodeVF-Italic.woff2") format("woff");
+    font-style: italic;
+}
+
+:root {
+    background-color: black;
+    padding: 1rem;
+    font-size-adjust: .5;
+    font-family: Junicode, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+body {
+    max-width: 720px;
+    min-height: calc(100vh - 4rem);
+    margin: auto;
+    padding: 1rem;
+    background-color: wheat;
+}
+
+section {
+    padding-left: 3em;
+}
+
+nav {
+    font-variant: small-caps;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.manuscrit {
+    font-style: italic;
+    font-variant: discretionary-ligatures;
+}
+
+abbr {
+    font-variant: historical-ligatures;
+}
+
+sup {
+    font-size: 1em;
+    vertical-align: bottom;
+    font-variant-position: super;
+}
+
+a {
+    text-decoration: none;
+}
+
+.incertain {
+    font-weight: 100;
+}
+
+.incertain::after {
+    content: "?";
+    font-variant-position: super;
+}
+
+.caviardage {
+    text-decoration: line-through 3px;
+}
+
+.marge {
+    margin-left: -1em;
+}
+
+.variantes {
+    font-style: italic;
+}
