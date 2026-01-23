@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="style-xml.css" type="text/css"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 <?xml-model href="xsd/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="fr">
@@ -24,6 +24,7 @@
 				<p><name>Robert Jolidon</name>. Glossaire de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
 			</sourceDesc>
 		</fileDesc>
+		
 	</teiHeader>
 	<text xml:lang="fr">
 		<body>

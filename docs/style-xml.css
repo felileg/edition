@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	font-family: "Vollkorn", "Linux Libertine G", "Junicode Medium", "Junicode", "Georgia", Times;
+	font-size-adjust: 0.5;
+	background-color: wheat;
+}
+
+TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym, note, def {
+    display: block;
+}
+
+form[type=lemma], form[type=variant], gramGrp, usg {
+	display: inline-block;
+}
+
+form[type=variant], gramGrp, usg {
+	margin-left: 0.5ex;
+}
+
+teiHeader {
+    display: none;
+}
+
+entry {
+    max-width: 600px;
+    margin: 1rem auto;
+    border: outset 2px;
+	background-color: cornsilk;
+}
+
+entry > * {
+    margin: 1rem;
+}
+
+sense > * {
+	margin-bottom: 1rem;
+}
+
+:lang(patois) {
+    font-style: italic;
+	font-family: "Junicode";
+	font-weight: 500;
+}
+
+form[type=lemma], def {
+	font-weight: 600 !important;
+}
+
+form[type=lemma] {
+	font-size: 1.25rem;
+}
+
+form[type=variant]::before {
+	content: "var : ";
+	font-style: normal;
+}
+
+bibl, etym {
+	text-align: right;
+}
+
+etym {
+	font-variant: small-caps;
+}
+
+usg::after {
+	content: ",";
+	font-style: normal;
+}
+
+usg:first-of-type::before {
+	content: "(";
+	font-style: normal;
+}
+
+usg:last-of-type::after {
+	content: ")";
+	font-style: normal;
+}
+
+note[type="example"] {
+	display: list-item;
+	margin-left: 1rem;
+}
+
+sense q::after {
+	content: " : ";
+	font-style: normal;
+}
+
+supplied, unclear {
+	text-decoration: underline dotted grey;
+}
+
+supplied[cert="medium"]::after {
+	content: "?";
+	color: gray;
+	font-size: .75em;
+	vertical-align: top;
+}
+
+supplied[cert="low"]::after {
+	content: "⚠";
+	color: gray;
+	font-size: .75em;
+	vertical-align: top;
+}
+
+/* cit q::before {
+	content: "« ";
+}
+
+cit q::after {
+	content: " »";
+} */
