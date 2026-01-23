@@ -1,8 +1,10 @@
 <ul>
-{
-for $forms in //entry//form[@type='lemma']/text()
-for $lemmas in //entry/@id
-
-return <li><a href="glossaire.xml#{data($lemmas)}">{data($forms)}</a></li>
-}
+	{
+		for $lemmepat in //entry/form/form
+		for $lemmefr in $lemmepat/../../@id
+		return
+			<li>
+				<a href="glossaire.xml#{data($lemmefr)}">{data($lemmepat)} ({data($lemmefr)})</a>
+			</li>
+	}
 </ul>

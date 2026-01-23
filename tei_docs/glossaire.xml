@@ -119,9 +119,7 @@
 				
 				<entry xml:id="hauts" facs="facs/Jolidon_A1.png-002.png">
 					<form>
-						<form type="lemma" xml:lang="patois">
-						ā
-						</form>
+						<form type="lemma" xml:lang="patois">ā</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
@@ -185,9 +183,7 @@
 				
 				<entry xml:id="havresac" facs="facs/Jolidon_A1.png-008.png">
 					<form>
-						<form type="lemma" xml:lang="patois">
-							abrəsă
-						</form>
+						<form type="lemma" xml:lang="patois">abrəsă</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>

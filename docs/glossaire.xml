@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="style.css" type="text/css"?>
-<?xml-model href="xsd/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader xml:lang="fr">
+<?xml-stylesheet href="style-xml.css" type="text/css"?><?xml-model href="xsd/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?><TEI>
+	<teiHeader lang="fr">
 		<fileDesc>
 			<titleStmt>
 				<title>Glossaire du patois de Saint-Brais: édition numérique</title>
@@ -24,21 +21,20 @@
 				<p><name>Robert Jolidon</name>. Glossaire de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
 			</sourceDesc>
 		</fileDesc>
-		
 	</teiHeader>
-	<text xml:lang="fr">
+	<text lang="fr">
 		<body>
-			<div type="alpha" xml:id="a" facs="facs/Jolidon_A1.png-001.png">
+			<div type="alpha" id="a" facs="facs/Jolidon_A1.png-001.png">
 				
-				<entry xml:id="ail" facs="facs/Jolidon_A1.png-003.png">
+				<entry id="ail" facs="facs/Jolidon_A1.png-003.png">
 					<form>
-						<form type="lemma" xml:lang="patois">ā</form>
+						<form type="lemma" lang="patois">ā</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
 						</gramGrp>
-						<usg type="colloc" xml:lang="patois">l’ā</usg>
-						<usg type="colloc" xml:lang="patois">lẹz_ā</usg>
+						<usg type="colloc" lang="patois">l’ā</usg>
+						<usg type="colloc" lang="patois">lẹz_ā</usg>
 					</form>
 					
 					<cit>
@@ -51,59 +47,59 @@
 						<def>Ail.</def>
 						<note>On leur accorde une grande efficacité médicinale ; un sujet me disait :</note>
 						<note type="example">
-							<q xml:lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q>
+							<q lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q>
 							<supplied cert="high">si on savait comme les ails sont bons, on en planterait un canton.</supplied>
 						</note>
 					</sense>
 				</entry>
 				
-				<entry xml:id="haut-e" facs="facs/Jolidon_A1.png-004.png">
+				<entry id="haut-e" facs="facs/Jolidon_A1.png-004.png">
 					<form>
-						<form type="lemma" xml:lang="patois">ā</form>,
-						<form type="lemma" xml:lang="patois">āt</form>
+						<form type="lemma" lang="patois">ā</form>,
+						<form type="lemma" lang="patois">āt</form>
 						<gramGrp>
 							<pos value="adjective">adj.</pos>
 						</gramGrp>
 					</form>
 					
-					<etym xml:lang="lat">&gt; altu, -a</etym>
+					<etym lang="lat">&gt; altu, -a</etym>
 					<sense>
 						<def>
 							Haut, haute.
 						</def>
 						<note type="example">
-							<q xml:lang="patois">Par tro ā<gap reason="editorial"/>, sꭒ̯ayīᵊ ā</q>
+							<q lang="patois">Par tro ā<gap reason="editorial"/>, sꭒ̯ayīᵊ ā</q>
 							<supplied cert="high">«prendre trop haut, faucher haut»</supplied> : <supplied cert="high">faucher trop haut</supplied>.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Āt dė kꭒₔ</q>
+							<q lang="patois">Āt dė kꭒₔ</q>
 							«haute de queue», se dit d’une vache dont la racine de la queue est trop élevée.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Lə a mā</q>
+							<q lang="patois">Lə a mā</q>
 							le haut mal, le mal caduc <supplied cert="high">(épilepsie)</supplied>.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Lę tšẽbr a</q>
+							<q lang="patois">Lę tšẽbr a</q>
 							«la chambre haute», chambre située au premier étage.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">S’ā dẹ džã ā pyęsīₔ</q>
+							<q lang="patois">S’ā dẹ džã ā pyęsīₔ</q>
 							«c'est des gens haut placés», qui jouissent d'une situation supérieure, financière ou autre.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Lę āt ętšăt</q>
+							<q lang="patois">Lę āt ętšăt</q>
 							<supplied cert="high">«la haute abeille»</supplied>, <supplied cert="low">la reine</supplied>
 						</note>
 						
 						<pb facs="facs/Jolidon_A1.png-005.png"/>
 						
 						<note type="example">
-							<q xml:lang="patois">Fęr dẹ ā džęvẹ</q>
+							<q lang="patois">Fęr dẹ ā džęvẹ</q>
 								<supplied cert="medium">«faire des hautes javelles»</supplied>, <supplied cert="unknown">?</supplied>
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Lę at grẽdž</q>
+							<q lang="patois">Lę at grẽdž</q>
 								<supplied cert="high">«la haute grange»</supplied>,
 								<supplied cert="high">
 									<cit>
@@ -112,43 +108,41 @@
 								</supplied>
 						</note>
 						<note type="example">
-							<q xml:lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q>
+							<q lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q>
 								<supplied cert="medium">«fendu haut»</supplied> se dit de quelqu'un qui est haut sur jambes.
 						</note>
 					</sense>
 				</entry>
 				
-				<entry xml:id="hauts" facs="facs/Jolidon_A1.png-002.png">
+				<entry id="hauts" facs="facs/Jolidon_A1.png-002.png">
 					<form>
-						<form type="lemma" xml:lang="patois">
-						ā
-						</form>
+						<form type="lemma" lang="patois">ā</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
 							<number value="plural"/>
 						</gramGrp>
-						<usg type="colloc" xml:lang="patois">lẹ ā</usg>
+						<usg type="colloc" lang="patois">lẹ ā</usg>
 						<usg>ne s'emploie qu'au pluriel</usg>
 					</form>
 					<sense>
 						<def>«Les hauts»</def>
 						<note>
-							S'emploie en opposition à <q xml:lang="patois">lẹ bẹ</q> («les bas») et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
+							S'emploie en opposition à <q lang="patois">lẹ bẹ</q> («les bas») et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
 						</note>
 					</sense>
 				</entry>
 				
-				<entry xml:id="bénitier" facs="facs/Jolidon_A1.png-006.png">
+				<entry id="bénitier" facs="facs/Jolidon_A1.png-006.png">
 					<form>
-						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
+						<form type="lemma" lang="patois">abnīₑ̇</form>
 											
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">m.</gen>
-							<usg type="colloc" xml:lang="patois">ĩn abnīₑ̇</usg>
+							<usg type="colloc" lang="patois">ĩn abnīₑ̇</usg>
 						</gramGrp>
-						<form type="variant" xml:lang="patois">abnẹtīₔ</form>
+						<form type="variant" lang="patois">abnẹtīₔ</form>
 					</form>
 					<sense>
 						<def>Bénitier.</def>
@@ -156,9 +150,9 @@
 					</sense>
 				</entry>
 				
-				<entry xml:id="eau-bénite" facs="facs/Jolidon_A1.png-007.png">
+				<entry id="eau-bénite" facs="facs/Jolidon_A1.png-007.png">
 					<form>
-						<form type="lemma" xml:lang="patois">abnīₑ̇</form>
+						<form type="lemma" lang="patois">abnīₑ̇</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
@@ -173,22 +167,20 @@
 					<sense>
 						<def>Eau bénite.</def>
 						<note type="example">
-							<q xml:lang="patois">Ęprẹ l’abniₔ</q>
+							<q lang="patois">Ęprẹ l’abniₔ</q>
 							après l'aspergès.
 						</note>
 						<note type="example">
-							<q xml:lang="patois">Tšẽpę̄ d l’abniₔ</q>
+							<q lang="patois">Tšẽpę̄ d l’abniₔ</q>
 							<supplied>jeter de l'eau bénite.</supplied>
 						</note>
 						<gap reason="editorial"/>
 					</sense>
 				</entry>
 				
-				<entry xml:id="havresac" facs="facs/Jolidon_A1.png-008.png">
+				<entry id="havresac" facs="facs/Jolidon_A1.png-008.png">
 					<form>
-						<form type="lemma" xml:lang="patois">
-							abrəsă
-						</form>
+						<form type="lemma" lang="patois">abrəsă</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
@@ -206,35 +198,35 @@
 					</sense>
 				</entry>
 				
-				<entry xml:id="audience" facs="facs/Jolidon_A1.png-009.png">
+				<entry id="audience" facs="facs/Jolidon_A1.png-009.png">
 					<form>
-						<form type="lemma" xml:lang="patois">adyẽs</form>,
+						<form type="lemma" lang="patois">adyẽs</form>,
 						
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
 						</gramGrp>
-						<form type="variant" xml:lang="patois">ādyẽs</form>
+						<form type="variant" lang="patois">ādyẽs</form>
 					</form>
 					<sense>
 						<def>
 							Audience, séance de tribunal.
 						</def>
 						<note type="example">
-							<q xml:lang="patois">Alę ã l’adyẽs</q>
+							<q lang="patois">Alę ã l’adyẽs</q>
 							aller à l’audience, se rendre à une séance de tribunal pour un procès, comparaitre en justice.
 						</note>
 					</sense>
 				</entry>
 				
-				<entry xml:id="auge" facs="facs/Jolidon_A1.png-010.png">
+				<entry id="auge" facs="facs/Jolidon_A1.png-010.png">
 					<form>
-						<form type="lemma" xml:lang="patois">adž</form>
+						<form type="lemma" lang="patois">adž</form>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
 						</gramGrp>
-						<form type="variant" xml:lang="patois">odž</form>
+						<form type="variant" lang="patois">odž</form>
 					</form>
 					<sense>
 						<def>
@@ -248,30 +240,30 @@
 					</sense>
 				</entry>
 				
-				<entry xml:id="aujourdhui" facs="facs/Jolidon_A1.png-009.png">
+				<entry id="aujourdhui" facs="facs/Jolidon_A1.png-009.png">
 					<form>
-						<form type="lemma" xml:lang="patois">ādždœ̄</form>
+						<form type="lemma" lang="patois">ādždœ̄</form>
 						<gramGrp>
 							<pos value="adverb">adv.</pos>
 						</gramGrp>
-						<form type="variant" xml:lang="patois">aždœ̄</form>
-						<usg><q xml:lang="patois">-džd-</q> souvent simplifié en <q xml:lang="patois">-žd-</q></usg>
+						<form type="variant" lang="patois">aždœ̄</form>
+						<usg><q lang="patois">-džd-</q> souvent simplifié en <q lang="patois">-žd-</q></usg>
 					</form>
 					<sense>
 						<def>
 							
 						</def>
 						<note type="example">
-							<q xml:lang="patois"></q>
+							<q lang="patois"/>
 						</note>
 					</sense>
 				</entry>				
 				
-				<entry xml:id="x" facs="facs/Jolidon_A1.png-009.png">
+				<entry id="x" facs="facs/Jolidon_A1.png-009.png">
 					<form>
-						<form type="lemma" xml:lang="patois"></form>
+						<form type="lemma" lang="patois"/>
 						<gramGrp>
-							<pos></pos>
+							<pos/>
 						</gramGrp>
 					</form>
 					<sense>
@@ -279,7 +271,7 @@
 							
 						</def>
 						<note type="example">
-							<q xml:lang="patois"></q>
+							<q lang="patois"/>
 						</note>
 					</sense>
 				</entry>

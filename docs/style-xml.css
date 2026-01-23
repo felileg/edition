@@ -3,7 +3,7 @@
 }
 
 :root {
-	font-family: "Vollkorn", "Linux Libertine G", "Junicode Medium", "Junicode", "Georgia", Times;
+	font-family:  Vollkorn, Junicode, Georgia, 'Times New Roman', Times, serif;
 	font-size-adjust: 0.5;
 	background-color: wheat;
 }
@@ -39,7 +39,7 @@ sense > * {
 	margin-bottom: 1rem;
 }
 
-:lang(patois) {
+[lang="patois"] {
     font-style: italic;
 	font-family: "Junicode";
 	font-weight: 500;
