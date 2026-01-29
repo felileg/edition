@@ -3,17 +3,17 @@
 Le *glossaire de Saint-Brais* est l'un des travaux majeurs du dialectologue [Robert Jolidon](https://diju.ch/f/notices/detail/1004040-jolidon-robert). Entre 1946 et 1950, celui-ci recueilli le lexique de son village natal sur plusieurs milliers de fiches papier. Il s'agit du seul ouvrage de ce genre concernant le patois jurassien, unique représentant de la langue d'oïl en Suisse.
 
 Malheureusement, Robert Jolidon décède subitement en 1953. Son glossaire, destiné à être imprimé en un volume, est resté sous la forme d'un fichier manuscrit:
-|![La boite contenant le fichier](images/fichier2.jpg)|![Un des paquets de fiches](images/paquet2.jpg)|![La fiche "autour"](images/fiche_autour.png)
+|![La boite contenant le fichier](images/fichier2.jpg)|![Un des paquets de fiches](images/paquet2.jpg)|![La fiche "autour"](images/fiche_autour.jpg)
 |---|---|---|
 |Le carton contenant l'entièreté du fichier|Un des paquets de fiches|Une des fiches|
 
 ## Les fiches
 
 Voici la structure typique d'une fiche:
-![Structure typique d'une fiche](images/structure.png)
+![Structure typique d'une fiche](images/structure1.png)
 
 Malheureusement, toutes les fiches ne sont pas aussi stéréotypées. Par exemple:
-![Fiche "autour"](images/autour.png)
+![Fiche "autour"](images/structure2.png)
 
 ## Enjeux d'un balisage structuré
 

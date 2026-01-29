@@ -40,11 +40,7 @@
 						<usg type="colloc" xml:lang="patois">lẹz_ā</usg>
 					</form>
 					
-					<cit>
-						<bibl>
-							ALF, carte 17.
-						</bibl>
-					</cit>
+					<cit><bibl>ALF, carte 17.</bibl></cit>
 					
 					<sense>
 						<def><seg type="literal">Ail</seg>.</def>
@@ -93,10 +89,11 @@
 							<supplied cert="high">«la haute hache»</supplied>, 
 							<supplied cert="high">
 								<cit>
-									<q>Grande hache du charpentier, à long manche et fer lourd au tranchant large, maniée à deux mains pour entamer l'équarrissage par l'ébauchage des billes</q> <bibl>(GPSR, article « hache »).</bibl>
+									<quote>Grande hache du charpentier, à long manche et fer lourd au tranchant large, maniée à deux mains pour entamer l'équarrissage par l'ébauchage des billes</quote><bibl>(GPSR, article « hache »).</bibl>
 								</cit>
 							</supplied>
 						</note>
+
 						
 						<pb facs="facs/Jolidon_A1.png-005.png"/>
 						
@@ -143,13 +140,13 @@
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">m.</gen>
-							<usg type="colloc" xml:lang="patois">ĩn abnīₑ̇</usg>
+							<usg type="colloc" xml:lang="patois">ĩn <oRef/></usg>
 						</gramGrp>
 						<orth type="variant" xml:lang="patois">abnẹtīₔ</orth>
 					</form>
 					<sense>
 						<def><seg type="literal">Bénitier</seg>.</def>
-						<note type="comment">«Eau-bénitier».</note>
+						<note type="comment"><supplied>Littéralement</supplied> «eau-bénitier».</note>
 					</sense>
 				</entry>
 				
@@ -159,8 +156,9 @@
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
-							<usg type="colloc" xml:lang="patois">l'abnīₑ̇</usg>
+							<usg type="colloc" xml:lang="patois">l’ <oRef/></usg>
 						</gramGrp>
+						<orth type="variant" xml:lang="patois">ābnĭt</orth>
 					</form>
 					<cit>
 						<bibl>
@@ -189,11 +187,7 @@
 							<gen value="m">m.</gen>
 						</gramGrp>
 					</form>
-					<cit>
-						<bibl>
-							Tappolet, Lehnw. 72
-						</bibl>
-					</cit>
+					<cit><bibl>Tappolet, Lehnw. 72</bibl></cit>
 					<sense>
 						<def>
 							<seg type="literal">Havresac</seg>, sac de touriste.

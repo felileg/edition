@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <!--
-    Schema generated from ODD source 2026-01-29T20:16:39Z. August 2012. 
+    Schema generated from ODD source 2025-12-16T11:00:11Z. August 2012. 
     TEI Edition: P5 Version 4.10.2. Last updated on 4th September 2025, revision bcfa98f42 
     TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.2/ 
     
@@ -2727,38 +2727,32 @@ Exemple de valeurs possibles: 1] duplicate; 2] duplicate-partial; 3] excessStart
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.quoteLike">
-    <xs:choice>
-      <xs:element ref="tei:quote"/>
+    <xs:sequence>
       <xs:element ref="tei:cit"/>
-    </xs:choice>
+    </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.quoteLike_alternation">
-    <xs:choice>
-      <xs:element ref="tei:quote"/>
+    <xs:sequence>
       <xs:element ref="tei:cit"/>
-    </xs:choice>
+    </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.quoteLike_sequence">
     <xs:sequence>
-      <xs:element ref="tei:quote"/>
       <xs:element ref="tei:cit"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.quoteLike_sequenceOptional">
     <xs:sequence>
-      <xs:element minOccurs="0" ref="tei:quote"/>
       <xs:element minOccurs="0" ref="tei:cit"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.quoteLike_sequenceOptionalRepeatable">
     <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:quote"/>
       <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:cit"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.quoteLike_sequenceRepeatable">
     <xs:sequence>
-      <xs:element maxOccurs="unbounded" ref="tei:quote"/>
       <xs:element maxOccurs="unbounded" ref="tei:cit"/>
     </xs:sequence>
   </xs:group>
@@ -2974,7 +2968,6 @@ Exemple de valeurs possibles: 1] duplicate; 2] duplicate-partial; 3] excessStart
     <xs:choice>
       <xs:group ref="tei:tei_model.respLike"/>
       <xs:group ref="tei:tei_model.imprintPart"/>
-      <xs:element ref="tei:quote"/>
       <xs:element ref="tei:bibl"/>
       <xs:element ref="tei:relatedItem"/>
       <xs:element ref="tei:edition"/>
@@ -3092,6 +3085,21 @@ Exemple de valeurs possibles: 1] duplicate; 2] duplicate-partial; 3] excessStart
   <xs:group name="tei_model.divGenLike">
     <xs:sequence>
       <xs:element ref="tei:divGen"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="tei_model.div1Like">
+    <xs:sequence>
+      <xs:element ref="tei:div1"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="tei_model.div2Like">
+    <xs:sequence>
+      <xs:element ref="tei:div2"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="tei_model.div3Like">
+    <xs:sequence>
+      <xs:element ref="tei:div3"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.teiHeaderPart">
@@ -3412,21 +3420,6 @@ Les valeurs suggérées comprennent: 1] page; 2] column; 3] line; 4] book; 5] po
           <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
           <xs:attributeGroup ref="tei:tei_att.cmc.attributes"/>
           <xs:attributeGroup ref="tei:tei_att.written.attributes"/>
-        </xs:extension>
-      </xs:complexContent>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="quote">
-    <xs:annotation>
-      <xs:documentation>(citation) contient une expression ou un passage que le narrateur ou l'auteur attribue à une origine extérieure au texte. [3.3.3. Quotation 4.3.1. Grouped Texts]</xs:documentation>
-    </xs:annotation>
-    <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="tei:tei_macro.specialPara">
-          <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
-          <xs:attributeGroup ref="tei:tei_att.cmc.attributes"/>
-          <xs:attributeGroup ref="tei:tei_att.notated.attributes"/>
-          <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -6687,18 +6680,34 @@ Les valeurs suggérées comprennent: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 
               <xs:group ref="tei:tei_model.divGenLike"/>
             </xs:choice>
           </xs:sequence>
+          <xs:sequence maxOccurs="unbounded">
+            <xs:group ref="tei:tei_model.div1Like"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="tei:tei_model.global"/>
+              <xs:group ref="tei:tei_model.divGenLike"/>
+            </xs:choice>
+          </xs:sequence>
           <xs:sequence>
             <xs:sequence maxOccurs="unbounded">
               <xs:group ref="tei:tei_model.common"/>
               <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
             </xs:sequence>
-            <xs:sequence minOccurs="0" maxOccurs="unbounded">
-              <xs:group ref="tei:tei_model.divLike"/>
-              <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:group ref="tei:tei_model.global"/>
-                <xs:group ref="tei:tei_model.divGenLike"/>
-              </xs:choice>
-            </xs:sequence>
+            <xs:choice minOccurs="0">
+              <xs:sequence maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.divLike"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:group ref="tei:tei_model.global"/>
+                  <xs:group ref="tei:tei_model.divGenLike"/>
+                </xs:choice>
+              </xs:sequence>
+              <xs:sequence maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.div1Like"/>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:group ref="tei:tei_model.global"/>
+                  <xs:group ref="tei:tei_model.divGenLike"/>
+                </xs:choice>
+              </xs:sequence>
+            </xs:choice>
           </xs:sequence>
         </xs:choice>
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
@@ -6783,6 +6792,135 @@ Les valeurs suggérées comprennent: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 
       <xs:attributeGroup ref="tei:tei_att.placement.attributes"/>
       <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
       <xs:attributeGroup ref="tei:tei_att.written.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div1">
+    <xs:annotation>
+      <xs:documentation>(division du texte de niveau 1) contient une subdivision de premier niveau dans le texte préliminaire, dans le corps d’un texte ou dans le texte postliminaire. [4.1.2. Numbered Divisions]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="tei:tei_model.divTop"/>
+          <xs:group ref="tei:tei_model.global"/>
+        </xs:choice>
+        <xs:sequence minOccurs="0">
+          <xs:choice>
+            <xs:sequence maxOccurs="unbounded">
+              <xs:choice>
+                <xs:group ref="tei:tei_model.div2Like"/>
+                <xs:group ref="tei:tei_model.divGenLike"/>
+              </xs:choice>
+              <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+            </xs:sequence>
+            <xs:sequence>
+              <xs:sequence maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.common"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+              </xs:sequence>
+              <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:choice>
+                  <xs:group ref="tei:tei_model.div2Like"/>
+                  <xs:group ref="tei:tei_model.divGenLike"/>
+                </xs:choice>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+              </xs:sequence>
+            </xs:sequence>
+          </xs:choice>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="tei:tei_model.divBottom"/>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+          </xs:sequence>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.declaring.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.divLike.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div2">
+    <xs:annotation>
+      <xs:documentation>(division du texte de niveau 2) contient une subdivision de deuxième niveau dans le texte prélimaire, dans le corps d’un texte ou dans le texte postliminaire. [4.1.2. Numbered Divisions]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="tei:tei_model.divTop"/>
+          <xs:group ref="tei:tei_model.global"/>
+        </xs:choice>
+        <xs:sequence minOccurs="0">
+          <xs:choice>
+            <xs:sequence maxOccurs="unbounded">
+              <xs:choice>
+                <xs:group ref="tei:tei_model.div3Like"/>
+                <xs:group ref="tei:tei_model.divGenLike"/>
+              </xs:choice>
+              <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+            </xs:sequence>
+            <xs:sequence>
+              <xs:sequence maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.common"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+              </xs:sequence>
+              <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:choice>
+                  <xs:group ref="tei:tei_model.div3Like"/>
+                  <xs:group ref="tei:tei_model.divGenLike"/>
+                </xs:choice>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+              </xs:sequence>
+            </xs:sequence>
+          </xs:choice>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="tei:tei_model.divBottom"/>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+          </xs:sequence>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.declaring.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.divLike.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div3">
+    <xs:annotation>
+      <xs:documentation>(division du texte de niveau 3) contient une subdivision de troisième niveau dans le texte préliminaire, dans le corps d’un texte ou dans le texte postliminaire. [4.1.2. Numbered Divisions]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="tei:tei_model.divTop"/>
+          <xs:group ref="tei:tei_model.global"/>
+        </xs:choice>
+        <xs:sequence minOccurs="0">
+          <xs:choice>
+            <xs:sequence maxOccurs="unbounded">
+              <xs:group ref="tei:tei_model.divGenLike"/>
+              <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+            </xs:sequence>
+            <xs:sequence>
+              <xs:sequence maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.common"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+              </xs:sequence>
+              <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.divGenLike"/>
+                <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+              </xs:sequence>
+            </xs:sequence>
+          </xs:choice>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="tei:tei_model.divBottom"/>
+            <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:tei_model.global"/>
+          </xs:sequence>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.declaring.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.divLike.attributes"/>
+      <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="trailer">
@@ -7153,14 +7291,24 @@ Les valeurs suggérées comprennent: 1] main (main); 2] sub (subordinate); 3] al
           <xs:group ref="tei:tei_model.global"/>
         </xs:choice>
         <xs:sequence minOccurs="0">
-          <xs:sequence>
-            <xs:group ref="tei:tei_model.divLike"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:choice>
+            <xs:sequence>
+              <xs:group ref="tei:tei_model.div1Like"/>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.div1Like"/>
+                <xs:group ref="tei:tei_model.frontPart"/>
+                <xs:group ref="tei:tei_model.global"/>
+              </xs:choice>
+            </xs:sequence>
+            <xs:sequence>
               <xs:group ref="tei:tei_model.divLike"/>
-              <xs:group ref="tei:tei_model.frontPart"/>
-              <xs:group ref="tei:tei_model.global"/>
-            </xs:choice>
-          </xs:sequence>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="tei:tei_model.divLike"/>
+                <xs:group ref="tei:tei_model.frontPart"/>
+                <xs:group ref="tei:tei_model.global"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:choice>
           <xs:sequence minOccurs="0">
             <xs:group ref="tei:tei_model.divBottom"/>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -7187,14 +7335,24 @@ Les valeurs suggérées comprennent: 1] main (main); 2] sub (subordinate); 3] al
           <xs:group ref="tei:tei_model.listLike"/>
           <xs:group ref="tei:tei_model.global"/>
         </xs:choice>
-        <xs:sequence minOccurs="0">
-          <xs:group ref="tei:tei_model.divLike"/>
-          <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:group ref="tei:tei_model.frontPart"/>
+        <xs:choice minOccurs="0">
+          <xs:sequence>
+            <xs:group ref="tei:tei_model.div1Like"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="tei:tei_model.frontPart"/>
+              <xs:group ref="tei:tei_model.div1Like"/>
+              <xs:group ref="tei:tei_model.global"/>
+            </xs:choice>
+          </xs:sequence>
+          <xs:sequence>
             <xs:group ref="tei:tei_model.divLike"/>
-            <xs:group ref="tei:tei_model.global"/>
-          </xs:choice>
-        </xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="tei:tei_model.frontPart"/>
+              <xs:group ref="tei:tei_model.divLike"/>
+              <xs:group ref="tei:tei_model.global"/>
+            </xs:choice>
+          </xs:sequence>
+        </xs:choice>
         <xs:sequence minOccurs="0">
           <xs:group ref="tei:tei_model.divBottomPart"/>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
