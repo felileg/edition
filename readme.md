@@ -1,4 +1,5 @@
-# *Glossaire de Saint-Brais* de Robert Jolidon
+# *Glossaire du patois de Saint-Brais* par Robert Jolidon
 - [Édition numérique](https://felileg.github.io/edition/)
 - [Documentation](documentation/documentation.md)
 - [Requêtes *XPath*](documentation/xpath.md)
+- [À faire](a-faire.md)

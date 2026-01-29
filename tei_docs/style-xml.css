@@ -45,7 +45,7 @@ sense > * {
 	font-weight: 500;
 }
 
-form[type=lemma], def {
+form[type=lemma], seg[type=literal] {
 	font-weight: 600 !important;
 }
 
