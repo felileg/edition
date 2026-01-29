@@ -81,6 +81,10 @@ usg:last-of-type::after {
 	font-style: normal;
 }
 
+oRef::after {
+	content: "~";
+}
+
 note[type="example"] {
 	display: list-item;
 	margin-left: 1rem;

@@ -21,7 +21,7 @@
 				<p>La présente édition est autant un travail de balisage que de reconstruction. L'original se présente en effet sous une forme assez brute: fichier manuscrit, structure parfois irrégulière, nombreuses traductions manquantes. Pour plus d'infos, voir <ref target="https://github.com/felileg/edition/blob/main/documentation/documentation.md">documentation</ref>.</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p><name>Robert Jolidon</name>. Glossaire de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
+				<p><name>Robert Jolidon</name>. Glossaire du patois de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -80,7 +80,7 @@
 						</note>
 						<note type="example">
 							<q xml:lang="patois">Lə a mā</q>
-							le haut mal, le mal caduc <supplied cert="high">(épilepsie)</supplied>.
+							le haut mal, le mal caduc <supplied cert="high">(l'épilepsie)</supplied>.
 						</note>
 						<note type="example">
 							<q xml:lang="patois">Lę tšẽbr a</q>
@@ -104,7 +104,7 @@
 						
 						<note type="example">
 							<q xml:lang="patois">Fęr dẹ ā džęvẹ</q>
-								<supplied cert="medium">«faire des hautes javelles»</supplied>, <supplied cert="unknown">?</supplied>
+								<supplied cert="high">«faire des hauts javels»</supplied>, <supplied cert="unknown">?</supplied>
 						</note>
 						<note type="example">
 							<q xml:lang="patois">Lę at grẽdž</q>
@@ -164,7 +164,7 @@
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
-							<usg type="colloc">l'abnīₑ̇</usg>
+							<usg type="colloc" xml:lang="patois">l'abnīₑ̇</usg>
 						</gramGrp>
 					</form>
 					<cit>
@@ -241,6 +241,8 @@
 							Auge.
 						</def>
 						<gap reason="editorial"/>
+						<pb facs="facs/Jolidon_A1.png-011.png"/>
+						<gap reason="editorial"/>
 						<supplied>
 							Copie de l'article du Glossaire des patois de la Suisse romande.
 							<bibl>(GPSR, article «auge»)</bibl>
@@ -248,7 +250,7 @@
 					</sense>
 				</entry>
 				
-				<entry xml:id="aujourdhui" facs="facs/Jolidon_A1.png-009.png">
+				<entry xml:id="aujourdhui" facs="facs/Jolidon_A1.png-012.png">
 					<form>
 						<form type="lemma" xml:lang="patois">ādždœ̄</form>
 						<gramGrp>
@@ -256,6 +258,56 @@
 						</gramGrp>
 						<form type="variant" xml:lang="patois">aždœ̄</form>
 						<usg><q xml:lang="patois">-džd-</q> souvent simplifié en <q xml:lang="patois">-žd-</q></usg>
+					</form>
+					
+					<sense>
+						<def>
+							Aujourd'hui, maintenant
+						</def>
+						<note type="example">
+							<q xml:lang="patois">Ā džꭒ̯ẹ d’adždœ̄</q>
+							aujourd’hui, au jour d’aujourd’hui.
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="enfanceté" facs="facs/Jolidon_A1.png-013.png">
+					<form>
+						<form type="lemma" xml:lang="patois">afẽstę̄</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Action d'un enfant.
+						</def>
+					</sense>
+				</entry>
+				
+				<entry xml:id="agrafe" facs="facs/Jolidon_A1.png-014.png">
+					<form>
+						<form type="lemma" xml:lang="patois">agraf</form>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							Agrafe, petit fil de fer recourbé, à deux pointes, pour fixer un autre fil de fer.
+						</def>
+					</sense>
+				</entry>
+				
+				<entry xml:id="unknown1" facs="facs/Jolidon_A1.png-009.png">
+					<form>
+						<form type="lemma" xml:lang="patois">akwẹ̆</form>
+						<gramGrp>
+							<pos value=""></pos>
+							<gen value=""></gen>
+						</gramGrp>
 					</form>
 					<sense>
 						<def>
@@ -265,13 +317,58 @@
 							<q xml:lang="patois"></q>
 						</note>
 					</sense>
-				</entry>				
-				
-				<entry xml:id="x" facs="facs/Jolidon_A1.png-009.png">
+				</entry>
+
+				<entry xml:id="aile" facs="facs/Jolidon_A1.png-009.png">
+					<form>
+						<form type="lemma" xml:lang="patois">āl</form>
+						<gramGrp>
+							<pos value="noun"><supplied cert="high">s.</supplied></pos>
+							<gen value="f"><supplied cert="high">f.</supplied></gen>
+							<usg type="colloc" xml:lang="patois">ẽn <oRef/></usg>
+							<usg type="colloc" xml:lang="patois">lẹz <oRef/></usg>
+						</gramGrp>
+					</form>
+					<cit><bibl>ALF, carte 18.</bibl></cit>
+					<sense>
+						<def>
+							Aile.
+						</def>
+						<note type="example">
+							<q xml:lang="patois">Lẹz āl di tšępẹ̄</q>
+							les bords du chapeau.
+						</note>
+						<note type="example">
+							<q xml:lang="patois">Bẹšīₔ lẹz āl</q>
+							«<supplied cert="high">baisser les ailes</supplied>».
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="exemple2" facs="facs/Jolidon_A1.png-009.png">
 					<form>
 						<form type="lemma" xml:lang="patois"></form>
 						<gramGrp>
-							<pos></pos>
+							<pos value=""></pos>
+							<gen value=""></gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							
+						</def>
+						<note type="example">
+							<q xml:lang="patois"></q>
+						</note>
+					</sense>
+				</entry>
+
+				<entry xml:id="exemple" facs="facs/Jolidon_A1.png-009.png">
+					<form>
+						<form type="lemma" xml:lang="patois"></form>
+						<gramGrp>
+							<pos value=""></pos>
+							<gen value=""></gen>
 						</gramGrp>
 					</form>
 					<sense>

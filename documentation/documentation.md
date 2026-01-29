@@ -21,7 +21,7 @@ En l'état actuel, une telle source est absolument inaccessible, pour les raison
 
 1. **Document manuscrit et inachevé**
 
-De nombreuses fiches demandent des **ajouts** ou des **suppressions**. Un bon balisage permet de conserver la version originale et la version éditée.
+De nombreuses fiches demandent des **ajouts** ou des **suppressions**. Un balisage permet d'indiquer quelle partie a été restituée, et, si oui, avec quel degré de certitude.
 
 2. **Structure complexe pas toujours régulière**
 
