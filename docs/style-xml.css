@@ -3,7 +3,7 @@
 }
 
 :root {
-	font-family:  Vollkorn, Junicode, Georgia, 'Times New Roman', Times, serif;
+	font-family: "Vollkorn", "Linux Libertine G", "Junicode Medium", "Junicode", "Georgia", Times;
 	font-size-adjust: 0.5;
 	background-color: wheat;
 }
@@ -12,11 +12,11 @@ TEI, text, group, div, ul, ol, li, p, entry, sense, cit, form, bibl, etym, note,
     display: block;
 }
 
-form[type=lemma], form[type=variant], gramGrp, usg {
+orth[type=lemma], orth[type=variant], gramGrp, usg {
 	display: inline-block;
 }
 
-form[type=variant], gramGrp, usg {
+orth[type=variant], gramGrp, usg {
 	margin-left: 0.5ex;
 }
 
@@ -39,21 +39,21 @@ sense > * {
 	margin-bottom: 1rem;
 }
 
-[lang="patois"] {
+[lang=patois] {
     font-style: italic;
 	font-family: "Junicode";
 	font-weight: 500;
 }
 
-form[type=lemma], def {
+orth[type=lemma], seg[type=literal] {
 	font-weight: 600 !important;
 }
 
-form[type=lemma] {
+orth[type=lemma] {
 	font-size: 1.25rem;
 }
 
-form[type=variant]::before {
+orth[type=variant]::before {
 	content: "var : ";
 	font-style: normal;
 }
@@ -79,6 +79,10 @@ usg:first-of-type::before {
 usg:last-of-type::after {
 	content: ")";
 	font-style: normal;
+}
+
+oRef::after {
+	content: "~";
 }
 
 note[type="example"] {
