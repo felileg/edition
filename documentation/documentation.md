@@ -17,7 +17,7 @@ Malheureusement, toutes les fiches ne sont pas aussi stéréotypées. Par exempl
 
 ## Enjeux d'un balisage structuré
 
-En l'état actuel, une telle source est absolument inaccessible, pour les raisons suivantes
+En l'état actuel, une telle source est très peu accessible, pour les raisons suivantes:
 
 1. **Document manuscrit et inachevé**
 

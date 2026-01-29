@@ -1,9 +1,9 @@
 # Requêtes XPath
 
-Dans un document comme celui-ci, le principal intérêt de *XPath* consiste en la création automatisée d'indexs et de renvois. Après plusieurs prototypes, une seule requête  a été retenue. Celle-ci récupère chaque **lemme patois** (la forme canonique du mot contenu dans `<form type="lemma">`) en l'associant à son **lemme français** correspondant (l'ID de l'entrée, obtenu en remontant dans l'arborescence depuis la forme en question) :
+Dans un document comme celui-ci, le principal intérêt de *XPath* consiste en la création automatisée d'indexs et de renvois. Après plusieurs prototypes, une seule requête  a été retenue. Celle-ci récupère chaque **lemme patois** (la forme canonique du mot contenu dans `<orth type="lemma">`) en l'associant à son **lemme français** correspondant (l'ID de l'entrée, obtenu en remontant dans l'arborescence depuis la forme en question) :
 
 ```
-$lemmepat = //entry/form/form
+$lemmepat = //entry/form/orth
 $lemmefr = $lemmepat/../../@id
 ```
 Un peu de mise en forme permet d'obtenir une liste à puces présentant la forme patoise, l'équivalent en français entre parenthèses et, surtout, un lien vers l'entrée correspondante :
@@ -11,7 +11,7 @@ Un peu de mise en forme permet d'obtenir une liste à puces présentant la forme
 ```
 <ul>
 	{
-		for $lemmepat in //entry/form/form
+		for $lemmepat in //entry/form/orth
 		for $lemmefr in $lemmepat/../../@id
 		return
 			<li>

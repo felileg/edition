@@ -18,7 +18,7 @@
 				<p>La présente édition est autant un travail de balisage que de reconstruction. L'original se présente en effet sous une forme assez brute: fichier manuscrit, structure parfois irrégulière, nombreuses traductions manquantes. Pour plus d'infos, voir <ref target="https://github.com/felileg/edition/blob/main/documentation/documentation.md">documentation</ref>.</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p><name>Robert Jolidon</name>. Glossaire de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
+				<p><name>Robert Jolidon</name>. Glossaire du patois de Saint-Brais (<date>1946-1952</date>). Musée jurassien d'art et d'histoire (MJ.1973.95), Delémont.</p>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -28,7 +28,7 @@
 				
 				<entry id="ail" facs="facs/Jolidon_A1.png-003.png">
 					<form>
-						<form type="lemma" lang="patois">ā</form>
+						<orth type="lemma" lang="patois">ā</orth>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
@@ -37,14 +37,10 @@
 						<usg type="colloc" lang="patois">lẹz_ā</usg>
 					</form>
 					
-					<cit>
-						<bibl>
-							ALF, carte 17.
-						</bibl>
-					</cit>
+					<cit><bibl>ALF, carte 17.</bibl></cit>
 					
 					<sense>
-						<def>Ail.</def>
+						<def><seg type="literal">Ail</seg>.</def>
 						<note>On leur accorde une grande efficacité médicinale ; un sujet me disait :</note>
 						<note type="example">
 							<q lang="patois">S’ã sęvę kmã lẹz ā sõ bõ, ãn ã pyẽtrę ĩ kẽto</q>
@@ -55,8 +51,8 @@
 				
 				<entry id="haut-e" facs="facs/Jolidon_A1.png-004.png">
 					<form>
-						<form type="lemma" lang="patois">ā</form>,
-						<form type="lemma" lang="patois">āt</form>
+						<orth type="lemma" lang="patois">ā</orth>,
+						<orth type="lemma" lang="patois">āt</orth>
 						<gramGrp>
 							<pos value="adjective">adj.</pos>
 						</gramGrp>
@@ -64,9 +60,7 @@
 					
 					<etym lang="lat">&gt; altu, -a</etym>
 					<sense>
-						<def>
-							Haut, haute.
-						</def>
+						<def><seg type="literal">Haut, haute</seg>.</def>
 						<note type="example">
 							<q lang="patois">Par tro ā<gap reason="editorial"/>, sꭒ̯ayīᵊ ā</q>
 							<supplied cert="high">«prendre trop haut, faucher haut»</supplied> : <supplied cert="high">faucher trop haut</supplied>.
@@ -77,7 +71,7 @@
 						</note>
 						<note type="example">
 							<q lang="patois">Lə a mā</q>
-							le haut mal, le mal caduc <supplied cert="high">(épilepsie)</supplied>.
+							le haut mal, le mal caduc <supplied cert="high">(l'épilepsie)</supplied>.
 						</note>
 						<note type="example">
 							<q lang="patois">Lę tšẽbr a</q>
@@ -89,34 +83,39 @@
 						</note>
 						<note type="example">
 							<q lang="patois">Lę āt ętšăt</q>
-							<supplied cert="high">«la haute abeille»</supplied>, <supplied cert="low">la reine</supplied>
+							<supplied cert="high">«la haute hache»</supplied>, 
+							<supplied cert="high">
+								<cit>
+									<quote>grande hache du charpentier, à long manche et fer lourd au tranchant large, maniée à deux mains pour entamer l'équarrissage par l'ébauchage des billes</quote><bibl>(GPSR, article « hache »).</bibl>
+								</cit>
+							</supplied>
 						</note>
-						
+
 						<pb facs="facs/Jolidon_A1.png-005.png"/>
 						
 						<note type="example">
 							<q lang="patois">Fęr dẹ ā džęvẹ</q>
-								<supplied cert="medium">«faire des hautes javelles»</supplied>, <supplied cert="unknown">?</supplied>
+							<supplied cert="high">«faire des hauts javels»</supplied>, <supplied cert="unknown">?</supplied>
 						</note>
 						<note type="example">
 							<q lang="patois">Lę at grẽdž</q>
-								<supplied cert="high">«la haute grange»</supplied>,
-								<supplied cert="high">
-									<cit>
-										<q>Grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</q> <bibl>(GPSR, article « grange »).</bibl>
-									</cit>
-								</supplied>
+							<supplied cert="high">«la haute grange»</supplied>,
+							<supplied cert="high">
+								<cit>
+									<quote>grange dont l’aire est au niveau des fenils, plus haut que les étables, avec entrée par l’arrière de la maison au moyen d’un plan incliné</quote> <bibl>(GPSR, article « grange »).</bibl>
+								</cit>
+							</supplied>
 						</note>
 						<note type="example">
 							<q lang="patois"><unclear cert="medium">F</unclear>ãdu ā</q>
-								<supplied cert="medium">«fendu haut»</supplied> se dit de quelqu'un qui est haut sur jambes.
+							<supplied cert="medium">«fendu haut»</supplied> se dit de quelqu'un qui est haut sur jambes.
 						</note>
 					</sense>
 				</entry>
 				
 				<entry id="hauts" facs="facs/Jolidon_A1.png-002.png">
 					<form>
-						<form type="lemma" lang="patois">ā</form>
+						<orth type="lemma" lang="patois">ā</orth>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
@@ -126,38 +125,36 @@
 						<usg>ne s'emploie qu'au pluriel</usg>
 					</form>
 					<sense>
-						<def>«Les hauts»</def>
-						<note>
-							S'emploie en opposition à <q lang="patois">lẹ bẹ</q> («les bas») et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.
-						</note>
+						<def><seg type="literal">Les hauts</seg>. S'emploie en opposition à <seg lang="patois">lẹ bẹ</seg> («les bas») et désigne la montagne par opposition à la vallée, les hauteurs de la montagne.</def>
 					</sense>
 				</entry>
 				
 				<entry id="bénitier" facs="facs/Jolidon_A1.png-006.png">
 					<form>
-						<form type="lemma" lang="patois">abnīₑ̇</form>
-											
+						<orth type="lemma" lang="patois">abnīₑ̇</orth>
+						
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">m.</gen>
-							<usg type="colloc" lang="patois">ĩn abnīₑ̇</usg>
+							<usg type="colloc" lang="patois">ĩn <oRef/></usg>
 						</gramGrp>
-						<form type="variant" lang="patois">abnẹtīₔ</form>
+						<orth type="variant" lang="patois">abnẹtīₔ</orth>
 					</form>
 					<sense>
-						<def>Bénitier.</def>
-						<note type="comment">«Eau-bénitier».</note>
+						<def><seg type="literal">Bénitier</seg>.</def>
+						<note type="comment"><supplied>Littéralement</supplied> «eau-bénitier».</note>
 					</sense>
 				</entry>
 				
 				<entry id="eau-bénite" facs="facs/Jolidon_A1.png-007.png">
 					<form>
-						<form type="lemma" lang="patois">abnīₑ̇</form>
+						<orth type="lemma" lang="patois">abnīₑ̇</orth>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
-							<usg type="colloc">l'abnīₑ̇</usg>
+							<usg type="colloc" lang="patois">l’ <oRef/></usg>
 						</gramGrp>
+						<orth type="variant" lang="patois">ābnĭt</orth>
 					</form>
 					<cit>
 						<bibl>
@@ -165,7 +162,7 @@
 						</bibl>
 					</cit>
 					<sense>
-						<def>Eau bénite.</def>
+						<def><seg type="literal">Eau bénite</seg>.</def>
 						<note type="example">
 							<q lang="patois">Ęprẹ l’abniₔ</q>
 							après l'aspergès.
@@ -180,37 +177,33 @@
 				
 				<entry id="havresac" facs="facs/Jolidon_A1.png-008.png">
 					<form>
-						<form type="lemma" lang="patois">abrəsă</form>
+						<orth type="lemma" lang="patois">abrəsă</orth>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="m">m.</gen>
 						</gramGrp>
 					</form>
-					<cit>
-						<bibl>
-							Tappolet, Lehnw. 72
-						</bibl>
-					</cit>
+					<cit><bibl>Tappolet, Lehnw. 72</bibl></cit>
 					<sense>
 						<def>
-							Havresac, sac de touriste.
+							<seg type="literal">Havresac</seg>, sac de touriste.
 						</def>
 					</sense>
 				</entry>
 				
 				<entry id="audience" facs="facs/Jolidon_A1.png-009.png">
 					<form>
-						<form type="lemma" lang="patois">adyẽs</form>,
+						<orth type="lemma" lang="patois">adyẽs</orth>,
 						
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
 						</gramGrp>
-						<form type="variant" lang="patois">ādyẽs</form>
+						<orth type="variant" lang="patois">ādyẽs</orth>
 					</form>
 					<sense>
 						<def>
-							Audience, séance de tribunal.
+							<seg type="literal">Audience</seg>, séance de tribunal.
 						</def>
 						<note type="example">
 							<q lang="patois">Alę ã l’adyẽs</q>
@@ -221,17 +214,19 @@
 				
 				<entry id="auge" facs="facs/Jolidon_A1.png-010.png">
 					<form>
-						<form type="lemma" lang="patois">adž</form>
+						<orth type="lemma" lang="patois">adž</orth>
 						<gramGrp>
 							<pos value="noun">s.</pos>
 							<gen value="f">f.</gen>
 						</gramGrp>
-						<form type="variant" lang="patois">odž</form>
+						<orth type="variant" lang="patois">odž</orth>
 					</form>
 					<sense>
 						<def>
-							Auge.
+							<seg type="literal">Auge</seg>.
 						</def>
+						<gap reason="editorial"/>
+						<pb facs="facs/Jolidon_A1.png-011.png"/>
 						<gap reason="editorial"/>
 						<supplied>
 							Copie de l'article du Glossaire des patois de la Suisse romande.
@@ -240,41 +235,134 @@
 					</sense>
 				</entry>
 				
-				<entry id="aujourdhui" facs="facs/Jolidon_A1.png-009.png">
+				<entry id="aujourdhui" facs="facs/Jolidon_A1.png-012.png">
 					<form>
-						<form type="lemma" lang="patois">ādždœ̄</form>
+						<orth type="lemma" lang="patois">ādždœ̄</orth>
 						<gramGrp>
 							<pos value="adverb">adv.</pos>
 						</gramGrp>
-						<form type="variant" lang="patois">aždœ̄</form>
+						<orth type="variant" lang="patois">aždœ̄</orth>
 						<usg><q lang="patois">-džd-</q> souvent simplifié en <q lang="patois">-žd-</q></usg>
 					</form>
+					
 					<sense>
 						<def>
-							
+							<seg type="literal">Aujourd'hui</seg>, maintenant.
 						</def>
 						<note type="example">
-							<q lang="patois"/>
+							<q lang="patois">Ā džꭒ̯ẹ d’adždœ̄</q>
+							aujourd’hui, au jour d’aujourd’hui.
 						</note>
 					</sense>
-				</entry>				
+				</entry>
 				
-				<entry id="x" facs="facs/Jolidon_A1.png-009.png">
+				<entry id="enfanceté" facs="facs/Jolidon_A1.png-013.png">
 					<form>
-						<form type="lemma" lang="patois"/>
+						<orth type="lemma" lang="patois">afẽstę̄</orth>
 						<gramGrp>
-							<pos/>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
 						</gramGrp>
 					</form>
 					<sense>
 						<def>
-							
+							Action d'un enfant.
+						</def>
+					</sense>
+				</entry>
+				
+				<entry id="agrafe" facs="facs/Jolidon_A1.png-014.png">
+					<form>
+						<orth type="lemma" lang="patois">agraf</orth>
+						<gramGrp>
+							<pos value="noun">s.</pos>
+							<gen value="f">f.</gen>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							<seg type="literal">Agrafe</seg>, petit fil de fer recourbé, à deux pointes, pour fixer un autre fil de fer.
+						</def>
+					</sense>
+				</entry>
+				
+				<entry id="unknown1" facs="facs/Jolidon_A1.png-015.png">
+					<form>
+						<orth type="lemma" lang="patois">akwẹ̆</orth>
+						<gramGrp>
+							<pos value=""/>
+							<gen value=""/>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							<supplied>Nous ignorons ici quel mot Jolidon a voulu décrire.</supplied>
+						</def>
+						
+					</sense>
+				</entry>
+				
+				<entry id="aile" facs="facs/Jolidon_A1.png-016.png">
+					<form>
+						<orth type="lemma" lang="patois">āl</orth>
+						<gramGrp>
+							<pos value="noun"><supplied cert="high">s.</supplied></pos>
+							<gen value="f"><supplied cert="high">f.</supplied></gen>
+							<usg type="colloc" lang="patois">ẽn <oRef/></usg>
+							<usg type="colloc" lang="patois">lẹz <oRef/></usg>
+						</gramGrp>
+					</form>
+					<cit><bibl>ALF, carte 18.</bibl></cit>
+					<sense>
+						<def>
+							<seg type="literal">Aile</seg>.
 						</def>
 						<note type="example">
-							<q lang="patois"/>
+							<q lang="patois">Lẹz āl di tšępẹ̄</q>
+							les bords du chapeau.
+						</note>
+						<note type="example">
+							<q lang="patois">Bẹšīₔ lẹz āl</q>
+							«<supplied cert="high">baisser les ailes</supplied>».
 						</note>
 					</sense>
 				</entry>
+				
+				<entry id="allemander" facs="facs/Jolidon_A1.png-017.png">
+					<form>
+						<orth type="lemma" lang="patois">almãdę̄</orth>
+						<gramGrp>
+							<pos value="verb">v.</pos>
+						</gramGrp>
+					</form>
+					<sense>
+						<def>
+							<seg type="literal">Allemander</seg>, parler allemand: se dit de quelqu'un qui parle de façon inintelligible.
+						</def>
+						<note type="example">
+							<q lang="patois">K’a s k ęl almãdã sẹ-li?</q>
+							de quoi parlent-ils, ceux-là?
+						</note>
+					</sense>
+				</entry>
+				
+				<!--entry xml:id="exemple" facs="facs/Jolidon_A1.png-009.png">
+				<form>
+				<orth type="lemma" xml:lang="patois"></form>
+				<gramGrp>
+				<pos value=""></pos>
+				<gen value=""></gen>
+				</gramGrp>
+				</form>
+				<sense>
+				<def>
+				
+				</def>
+				<note type="example">
+				<q xml:lang="patois"></q>
+				</note>
+				</sense>
+				</entry-->
 				
 			</div>
 		</body>

@@ -1,6 +1,6 @@
 <ul>
 	{
-		for $lemmepat in //entry/form/form
+		for $lemmepat in //entry/form/orth
 		for $lemmefr in $lemmepat/../../@id
 		return
 			<li>
