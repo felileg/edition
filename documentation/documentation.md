@@ -48,15 +48,15 @@ Le patois (en graphie phonétique) doit être séparément balisé du français,
 - `<div type="alpha" xml:id="(lettres traitées)">` : paquet alphabétique de fiches.
 	- `<entry xml:id="(lemme)" facs="(scan de l'original)">` : **entrée**, regroupe toutes les informations au sujet du mot traité.
 		- `<form>` : regroupe les différentes **formes** et informations grammaticales.
-			- `<form type="lemma" xml:lang="patois">` : **titre**, forme canonique du mot.
-			- `<form type="variant" xml:lang="patois">` : variante.
+			- `<orth type="lemma" xml:lang="patois">` : **titre**, forme canonique du mot.
 			- `<gramGrp>` : précisions grammaticales.
 				- `<usg type="colloc" xml:lang="patois">` : mot en association récurrente avec le lemme. *Typiquement : les déterminants mentionnés pour préciser le genre ou la liaison*
 				- `<pos>` : catégorie grammaticale.
 				- `<gen>` : genre.
 				- `<number>` : nombre.
 				- etc.
-		- `<usg>` : autres précisions sur l'usage.
+			- `<orth type="variant" xml:lang="patois">` : variante.
+			- `<usg>` : autres précisions sur l'usage.
 		- `<cit>` : mentions du mot dans l'*Atlas Linguistique de la France* (ALF), éventuellement dans d'autres ouvrages.
 			- `<bibl>` : ouvrage + numéro de la carte.
 			- Pour le moment, la forme linguistique n'est pas recopiée. Elle pourrait l'être à l'aide de `<quote>`.
