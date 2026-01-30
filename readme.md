@@ -2,4 +2,3 @@
 - [Édition numérique](https://felileg.github.io/edition/)
 - [Documentation](documentation/documentation.md)
 - [Requêtes *XPath*](documentation/xpath.md)
-- [À faire](a-faire.md)
