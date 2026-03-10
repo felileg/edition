@@ -113,6 +113,11 @@ supplied[cert="low"]::after {
 	vertical-align: top;
 }
 
+
+gap::after {
+	content: " [...]";
+}
+
 /* cit q::before {
 	content: "« ";
 }
